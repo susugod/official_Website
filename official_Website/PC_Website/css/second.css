@@ -1,0 +1,175 @@
+.second{
+    background-color: #fff !important;
+    overflow: hidden;
+}
+
+.second .box{
+    position: relative;
+    width:1000px;
+    height:642px;
+    margin: 0 auto;
+}
+
+.second .phone{
+    position: absolute;
+    width: 169px;
+    height: 292px;
+    right: 552px;
+    top: 115px;
+    opacity: 0;
+}
+.second .phone_white{
+   position: absolute;
+    width: 112px;
+    height: 159px;
+    top:169px;
+    right: 581px;
+    opacity: 0;
+}
+.second .phone_blue{
+    position: absolute;
+    width: 112px;
+    height: 159px;
+    top:169px;
+    right: 581px;
+    opacity: 0;
+}
+.second .cloud{
+    position: absolute;
+    height: 374px;
+    width: 364px;
+    top:31px;
+    left:554px;
+}
+/*手机里面的动画部分*/
+.second.current .phone{
+    transition:  all 0.4s linear 0.4s;
+    opacity: 1;
+}
+.second.current .phone_white{
+     transition:  all 0.4s linear 0.8s;
+     opacity: 1;
+ }
+.second.current  .phone_blue{
+    transition:  all 0.4s linear 1.8s;
+    opacity: 1;
+}
+
+/*虚线部分*/
+
+/*虚线部分*/
+/*第一条虚线*/
+.second .line_one{
+    position: absolute;
+    top:217px;
+    right:449px;
+    height:9px;
+    width: 0;
+    border-top:9px dotted #FFC94F;
+}
+.second.current .line_one{
+    transition:  all 0.3s linear;
+    width: 10%;
+}
+
+/*第二条虚线*/
+.second .line_two{
+    position: absolute;
+    top:408px;
+    right:622px;
+    height:230px;
+    width: 9px;
+    border-left:9px dotted #FFC94F;
+    z-index: 99;
+}
+
+/*.second.current .line_two{*/
+    /*transition:  all 0.2s linear 2.4s;*/
+    /*height:230px;*/
+/*}*/
+/*第三条虚线*/
+
+
+.second .line_there{
+    position: absolute;
+    width: 473px;
+    height: 160px;
+    left:359px;
+    top:477px;
+}
+.second .cover{
+    position: absolute;
+    width: 473px;
+    height: 229px;
+    left:359px;
+    /*top:409px;*/
+    bottom: 4px;
+    background-color: #FFFFFF;
+    /*background-color: orangered;*/
+    z-index: 99;
+
+}
+
+.second.current .cover{
+     animation: cover_heightone 0.8s 2.4s  forwards;
+ }
+
+  @keyframes cover_heightone {
+      0%{height: 282px}
+      100%{height: 0}
+  }
+ /*@keyframes cover_width {*/
+    /*0%{width: 32.7%}*/
+    /*100%{height: 0}*/
+/*}*/
+ .second .second_text{
+     position: absolute;
+     width: 324px;
+     height: 78px;
+     left:577px;
+     top:450px;
+     opacity: 0;
+     z-index: 120;
+ }
+.second.current .second_text{
+    transition:  all 0.4s linear 2.8s;
+    opacity: 1;
+}
+
+/*.second .second_title{*/
+    /*background: url(../images/p2_title.png)no-repeat center top;*/
+    /*height: 160px;*/
+    /*width: 100%;*/
+    /*z-index: 9;*/
+/*}*/
+
+.second .second_title{
+    /*position: absolute;*/
+    /*top: 0;*/
+    background: #3E506A;
+    text-align: center;
+    height: 162px;
+    width: 100%;
+    /*z-index: 9;*/
+    line-height: 162px;
+    color:#FFFFFF;
+    font-size: 34px;
+    padding-left: 40px;
+}
+.second .line_four{
+    position: absolute;
+    left:360px;
+    top:644px;
+    height:0px;
+    width:9px;
+    border-left:9px dotted #FFC94F;
+}
+.second .line_five{
+    position: absolute;
+    left:819px;
+    top:641px;
+    height:0px;
+    width:13px;
+    border-left:13px dotted #50E3C2;
+}
+

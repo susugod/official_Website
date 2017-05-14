@@ -1,0 +1,447 @@
+.sixth{
+    position: relative;
+    background-color: #4EB4FF;
+    overflow: auto !important;
+}
+
+.sixth .box{
+    position: relative;
+    width:960px;
+    /*height:700px;*/
+    height: 674px;
+    margin: 0 auto;
+}
+
+
+.sixth .sixth_img{
+    position: absolute;
+    left: 0px;
+    top: 209px;
+    width: 408px;
+    height: 302px;
+}
+
+.sixth .sixth_form {
+    position: absolute;
+    width: 434px;
+    height: 464px;
+    right:0px;
+    top: 55px;
+    background-color: #C3E7FF;
+    border: 8px solid #98D3FF;
+    border-radius: 14px;
+
+}
+
+
+.sixth .sixth_form h3{
+    font-size: 22px;
+    font-weight: 700;
+    color:#356C94;
+    margin-top: 8%;
+    margin-left: 37%;
+}
+
+.sixth input{
+    height: 11%;
+    width:83%;
+    margin-top: 5%;
+    margin-left:7%;
+    padding-left:3%;
+    font-size: 16px;
+    color:#89A9C0;
+}
+.sixth input:hover{
+    border-left: 1px solid #82A4BD;
+    border-right: 1px solid #82A4BD;
+    border-top: 1px solid #82A4BD;
+
+}
+.sixth input:nth-last-child{
+    margin-bottom: 10%;
+}
+
+/*.sixth .login{*/
+    /*display: block;*/
+    /*color:#ffffff;*/
+    /*background-color: #F5A623;*/
+    /*margin-top: 6%;*/
+    /*margin-left: 20%;*/
+    /*margin-right: 20%;*/
+    /*padding:4% 10%;*/
+    /*border-radius: 36px;*/
+    /*font-size: 18px;*/
+    /*text-align: center;*/
+    /*font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+/*}*/
+
+/*.sixth .login:hover{*/
+    /*background-color: #FFFFFF;*/
+    /*color:#F5A623;*/
+/*}*/
+
+.sixth .login{
+    display: block;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding:4% 10%;
+    border-radius: 36px;
+}
+
+.sixth .login  .submit{
+    position: absolute;
+    left: 97px;
+    top: 378px;
+    width: 239px;
+    height: 61px;
+    opacity: 1;
+}
+
+.sixth .login  .send{
+    position: absolute;
+    left: 97px;
+    top: 378px;
+    width: 239px;
+    height: 61px;
+    opacity: 0;
+}
+.sixth .login  .jingguo{
+    position: absolute;
+    left: 86px;
+    top: 367px;
+    width: 261px;
+    height: 84px;
+    opacity: 0;
+}
+
+
+.sixth .login  .disable{
+    position: absolute;
+    left: 97px;
+    top: 378px;
+    width: 239px;
+    height: 61px;
+    opacity: 0;
+}
+
+
+
+
+.sixth .sixth_footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27.2%;
+    background-color: #FFFFFF;
+    /*padding-left: 15%;*/
+}
+dl{
+    float: left;
+    font-size: 16px;
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+dt>a{
+    font-weight: 700;
+    color:#7A7A7A;
+}
+dd>a{
+    height:15px;
+    color:#898989;
+}
+.sixth dl a{
+    display: block;
+    height:30px;
+
+}
+
+.sixth dl:not(.product) dd a:hover{
+    text-decoration: underline;
+}
+
+.sixth_line{
+    position: absolute;
+    right:239px;
+    top:32px;
+    width:1px;
+    height: 110px;
+    border-left: 1px solid #D8D8D8;
+
+}
+
+
+
+.sixth .logo_v2{
+    position: absolute;
+    left:0;
+    top:26px;
+}
+.product{
+    position: absolute;
+    left:143px;
+    top:32px;
+}
+.developer{
+    position: absolute;
+    left:365px;
+    top: 32px;
+}
+.partner{
+    position:absolute;
+    left:521px;
+    /*top: 32px;*/
+    top: 32px;
+}
+.center{
+    position: absolute;
+    right:0;
+    top:32px;
+}
+.last{
+    /*background: url("../images/p6_footer.png") no-repeat center top;*/
+    /*background-size: 100%,52px;*/
+    width: 100%;
+    height: 52px;
+    background-color:#F5F5F5;
+}
+
+
+.last_box{
+    position: relative;
+    width: 950px;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+
+.last_box img{
+    position: absolute;
+    left: 0;
+    top:16px;
+    width:22px;
+    height:22px;
+    display: inline-block;
+}
+.last_box p:nth-child(2){
+    position: absolute;
+    left:23px;
+    display: inline-block;
+    color:#7D7D7D;
+}
+
+.last_box p:nth-child(3){
+    position: absolute;
+    left:283px;
+    display: inline-block;
+    color:#7D7D7D;
+}
+
+.last_box p:nth-child(4){
+    position: absolute;
+    left:718px;
+    display: inline-block;
+    color:#7D7D7D;
+}
+
+.smile{
+    position: absolute;
+    left:102px;
+    top:404px;
+    height: 20px;
+    width:20px;
+    opacity: 0;
+}
+.leter{
+    position: absolute;
+    left:143px;
+    top:399px;
+    height: 18px;
+    width:24px;
+    opacity: 0;
+}
+
+.footer_box{
+    position: relative;
+    margin: 0 auto;
+    height: 183px;
+    width: 919px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+/* .swiper-container {
+    width: 100%;
+    height: 100%;
+
+} */
+/* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    Center slide text vertically
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 490px;
+    height: 305px;
+    position: absolute;
+    top: 287px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+
+.content .swiper-container {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 49px;
+    width: 493px;
+    height:303px;
+}
+
+.sixth .icone{
+    position: absolute;
+    left:701px;
+    top:20px;
+    height: 14px;
+    width: 14px;
+
+}
+
+.sixth .center b{
+    font-weight:normal;
+}
+
+/*.sixth .product  dd a{*/
+    /*text-decoration: none;*/
+/*}*/
+
+
+/*SDK弹框*/
+.sixth .picture{
+    position: absolute;
+    width: 153px;
+    height: 78px;
+    left:443px;
+    top:63px;
+    background-color: #EFF9FF;
+    border-radius: 8px;
+    display: none;
+}
+/*三角*/
+.sixth  .triangle{
+    position: absolute;
+    width: 14px;
+    height:14px;
+    transform: rotateZ(-45deg);
+    background-color: #EFF9FF;
+    left: -8px;
+    top:32px;
+}
+/*苹果图标*/
+.sixth  .apple{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    z-index: 9;
+    left:12px;
+    top:13px;
+    opacity: 1;
+}
+
+/*苹果经过图标*/
+.sixth .apple-light{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    z-index: 9;
+    left:12px;
+    top:13px;
+    opacity: 0;
+}
+/*苹果文字*/
+.sixth .iossdk{
+    position: absolute;
+    height:20px;
+    width:63px;
+    z-index: 9;
+    left: 44px;
+    top: 14px;
+
+}
+.sixth .iossdk a{
+    color:#43769C;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.sixth .android{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    z-index: 9;
+    left:12px;
+    top:45px;
+    opacity: 1;
+}
+
+/*安卓经过图标*/
+.sixth .android-light{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    z-index: 9;
+    left:12px;
+    top:45px;
+    opacity: 0;
+
+}
+
+/*安卓文字*/
+.sixth .androidsdk{
+    position: absolute;
+    height: 20px;
+    width: 97px;
+    z-index: 9;
+    left:44px;
+    top:47px;
+
+
+}
+
+.sixth .androidsdk a{
+    color:#43769C;
+    font-size: 16px;
+}
+
+
+#SDK{
+    width: 100px;
+}
+
+

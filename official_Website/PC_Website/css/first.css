@@ -1,0 +1,609 @@
+body{position: relative;}
+.first{
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position:relative;*/
+    font-size: 14px;
+    overflow: auto;
+    background-color: #4EB4FF !important;
+}
+.first .box{
+    position: relative;
+    width:1000px;
+    height:858px;
+    margin: 0 auto;
+}
+
+.logo{
+    position: absolute;
+    top:43%;
+    transform: translateY(-50%);
+    left:220px;
+    width: 101px;
+    height: 33px;
+}
+
+.logo  img{
+    width: 153px;
+    height: 48.5px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 107px;*/
+    height:80px;
+    background-color: #4EB4FF;
+    z-index: 9;
+
+}
+.nav ul{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    /*left:35.5%;*/
+    right:0;
+    height:80px;
+    line-height:80px;
+    width: 713px;
+}
+.nav ul li{
+    float: left;
+    margin-left:65px;
+    list-style: none;
+    /*padding-top:4% ;*/
+
+}
+.first_features{
+    display: inline-block;
+    border-bottom: 2px solid #FFFFFF;
+    height:52px;
+}
+
+
+/*.first .nav ul li:nth-child(5){*/
+/*padding-bottom: 3%;*/
+/*}*/
+ .nav ul li a:not(.first_top):hover{
+     border-bottom: 2px solid #ffffff;
+     display:inline-block;
+     height:52px;
+}
+
+.nav ul li a{
+    color:#ffffff;
+    font-size: 14px;
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+}
+.first_top{
+    border: 2px solid #ffffff;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    line-height: 27px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right: 18px;
+    margin-top: -12px;
+    padding-bottom:4%;
+}
+.first_top:hover{
+    background-color: #ffffff;
+    color:#4EB4FF;
+    box-shadow: 0px 0px 12px 0px rgba(255,255,255,0.5);
+}
+
+
+.main .out_line{
+    position: absolute;
+    bottom: 0px;
+    left:162px;
+    width: 670.4px;
+    height: 430.8px;
+    background-color: #ffffff;
+    border:3px solid #A6DCFF;
+    border-radius: 32px 32px 0px 0px;
+}
+.main .ball{
+    position: absolute;
+    top:5%;
+    left:50%;
+    margin-left: -4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgb(115,190,255);
+}
+.main .in_line{
+    position: absolute;
+    /*left: 3.2%;*/
+    left:2.8%;
+    bottom: 0;
+    margin-top: 8.3%;
+    margin-bottom: 2%;
+    height: 86%;
+    width: 94%;
+    background-color: #007aff;
+    border: 1px solid #83AADB;
+    border-bottom:2px solid #6891CD;
+    border-right:2px solid #6891CD;
+}
+.main .in_line .left{
+    position: absolute;
+    left:0;
+    width:50%;
+    height:100%;
+    background-color: #C7E7FF;
+}
+
+.main .in_line .left .broken_line{
+    height: 189px;
+    width: 182px;
+    margin-top: 17%;
+    margin-left: 22%;
+    margin-bottom: 2%;
+}
+
+/*.main .first_data{*/
+    /*display: block;*/
+    /*width: 34%;*/
+    /*height:10%;*/
+    /*margin-top: 7%;*/
+    /*margin-left: 31%;*/
+/*}*/
+
+
+.main .first_data{
+    margin-top: 7%;
+    margin-left: 28%;
+    width: 40%;
+    height:10%;
+    font-size: 30px;
+    font-weight: 700;
+    color:#495C76;
+}
+
+.main .in_line .right{
+    position: absolute;
+    right:0;
+    width: 50%;
+    height:100%;
+    background-color: #84CBFF;
+    border-left:2px solid #6891CD;
+}
+.main .in_line .right .right-wrong{
+    height: 156px;
+    width: 214px;
+    margin-top: 24%;
+    margin-bottom: 2%;
+    margin-left: 17%;
+}
+
+.first .first_think{
+    width: 40%;
+    height:10%;
+    margin-top: 10%;
+    margin-left: 29%;
+    font-size: 30px;
+    font-weight: 700;
+    color:#495C76;
+}
+/*.main .in_line .right h3{*/
+/*font-size:27px;*/
+/*font-weight: 600;*/
+/*margin-left: 26%;*/
+/*color: rgb(48,62,87);*/
+/*margin-top: 10%;*/
+/*}*/
+
+
+.main .in_line .left h3{
+    font-size:27px;
+    font-weight: 600;
+    margin-left: 26%;
+    color: rgb(48,62,87);
+    margin-top: 10%;
+}
+
+.first_data{
+    width: 19%;
+    height: 5%;
+}
+/*第一个虚线*/
+.first .line-one-one{
+    position: absolute;
+    right:840px;
+    top:486px;
+    height: 5px;
+    width:0;
+    border-top: 5px dotted  #97D3FF;
+}
+.first .line-one-two{
+    position: absolute;
+    left: 91px;
+    /*top:43%;*/
+    bottom:367px;
+    height: 0;
+    width:5px;
+    border-left: 5px dotted  #97D3FF;
+}
+/*第一个文字和图片*/
+.first .content-one{
+    position: absolute;
+    left:67px;
+    top:306px;
+    opacity: 0;
+}
+.first .content-one img{
+    float: left;
+}
+.first .content-one p{
+    font-weight: 600;
+    float: left;
+    color:#ffffff;
+    padding-left:12px;
+    padding-top:9px;
+    font-size: 20px;
+}
+.first .content-one p span{
+    font-weight: 700;
+    font-size: 24px;
+}
+/*动画序列*/
+.first.current .line-one-one{
+    transition:  all 0.2s linear ;
+    width:6.4%;
+}
+
+.first.current .line-one-two{
+    transition:  all 0.2s linear 0.2s;
+    height: 18%;
+}
+.first.current .content-one{
+    transition:  all 0.2s linear 0.4s;
+    opacity: 1;
+}
+
+/*第二个虚线*/
+.first .line-two-one{
+    position: absolute;
+    left:413px;
+    bottom:438px;
+    height:0;
+    width: 5px;
+    border-left: 5px dotted  #97D3FF;
+}
+
+.first .line-two-two{
+    position: absolute;
+    right:581.7px;
+    top:263px;
+    height:5px;
+    width: 0;
+    border-top: 5px dotted  #97D3FF;
+}
+
+.first .line-two-there{
+    position: absolute;
+    left:287px;
+    /*top:25%;*/
+    bottom:592px;
+    height:0;
+    width: 5px;
+    border-left: 5px dotted  #97D3FF;
+}
+/*第二个文字和图片*/
+.first .content-two{
+    position: absolute;
+    left:262px;
+    top:160px;
+    opacity: 0;
+}
+.first .content-two img{
+    float: left;
+}
+.first .content-two p{
+    font-weight: 600;
+    float: left;
+    color:#ffffff;
+    padding-left:12px;
+    padding-top:9px;
+    font-size: 20px;
+}
+.first .content-two p span{
+    font-weight: 700;
+    font-size: 24px;
+}
+/*第二根虚线开始*/
+.first.current .line-two-one{
+    transition:  all 0.2s linear 0.6s;
+    height:18%;
+}
+
+.first.current .line-two-two{
+    transition:  all 0.2s linear 0.8s;
+    width:13%;
+}
+.first.current .line-two-there{
+    transition:  all 0.2s linear  1s;
+    height:5.4%;
+}
+.first.current  .content-two{
+    transition:  all 0.2s linear  1.2s;
+    opacity: 1;
+}
+
+/*第三条虚线*/
+.first .line-there{
+    position: absolute;
+    left:471px;
+    bottom:437px;
+    height:0;
+    width: 5px;
+    border-left: 5px dotted  #97D3FF;
+}
+/*第三屏的文字和动画*/
+.first .content-there{
+    position: absolute;
+    left:445px;
+    top:289px;
+    opacity: 0;
+}
+.first .content-there img{
+    float: left;
+}
+.first .content-there p{
+    font-weight: 600;
+    float: left;
+    color:#ffffff;
+    padding-left:12px;
+    padding-top:9px;
+    font-size: 20px;
+}
+.first .content-there p span{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.first.current .line-there{
+    transition:  all 0.2s linear 1.4s;
+    height:9.4%;
+}
+.first.current .content-there{
+    transition:  all 0.2s linear 1.6s;
+    opacity: 1;
+}
+
+/*第四条虚线*/
+.first .line-four-one{
+    position: absolute;
+    left:752px;
+    bottom:434px;
+    height:0;
+    width: 5px;
+    border-left: 5px dotted  #97D3FF;
+}
+
+.first .line-four-two{
+    position: absolute;
+    /*left:55%;*/
+    right:244px;
+    top:270px;
+    height:5px;
+    width: 0;
+    border-top: 5px dotted  #97D3FF;
+}
+.first .line-four-there{
+    position: absolute;
+    left:626px;
+    bottom:587px;
+    height:0px;
+    width: 5px;
+    border-left: 5px dotted  #97D3FF;
+}
+/*第四屏文字和动画*/
+.first .content-four{
+    position: absolute;
+    left:605px;
+    top:169px;
+    opacity: 0;
+}
+.first .content-four img{
+    float: left;
+}
+.first .content-four p{
+    font-weight: 600;
+    float: left;
+    color:#ffffff;
+    padding-left:12px;
+    padding-top:9px;
+    font-size: 20px;
+}
+.first .content-four p span{
+    font-weight: 700;
+    font-size: 24px;
+}
+/*第四根虚线动画开始*/
+.first.current  .line-four-one{
+    transition:  all 0.2s linear 1.8s;
+    height:18%;
+}
+.first.current .line-four-two{
+    transition:  all 0.2s linear 2s;
+    width: 13%;
+}
+.first.current .line-four-there{
+    transition:  all 0.2s linear 2.2s;
+    height:5.4%;
+}
+.first.current .content-four{
+    transition:  all 0.2s linear 2.4s;
+    opacity: 1;
+}
+
+/*第五条虚线*/
+.first .line-five-one{
+    position: absolute;
+    left:838px;
+    top:516px;
+    height: 5px;
+    width:0;
+    border-top: 5px dotted  #97D3FF;
+}
+.first .line-five-two{
+    position: absolute;
+    left:907px;
+    /*top:46%;*/
+    bottom:341px;
+    height:0;
+    width: 5px;
+    border-left: 5px dotted  #97D3FF;
+}
+
+.first .line-five-there{
+    position: absolute;
+    /*left:72%;*/
+    right:88px;
+    top:327px;
+    height: 5px;
+    width:0;
+    border-top: 5px dotted  #97D3FF;
+}
+.first .line-five-four{
+    position: absolute;
+    left:815px;
+    /*top:39%;*/
+    bottom:528px;
+    height:0;
+    width: 5px;
+    border-left: 5px dotted  #97D3FF;
+}
+/*第五个文字和虚线*/
+.first .content-five{
+    position: absolute;
+    left:790px;
+    top:229px;
+    opacity: 0;
+}
+.first .content-five img{
+    float: left;
+}
+.first .content-five p{
+    font-weight: 600;
+    float: left;
+    color:#ffffff;
+    padding-left:12px;
+    padding-top:9px;
+    font-size: 20px;
+}
+.first .content-five p span{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/*第五根虚线的动画*/
+.first.current .line-five-one{
+    transition:  all 0.2s linear 2.6s;
+    width:7.4%;
+}
+.first.current .line-five-two{
+    transition:  all 0.2s linear 2.8s;
+    height:22%;
+}
+.first.current .line-five-there{
+    transition:  all 0.2s linear 3s;
+    width:9%;
+}
+.first.current .line-five-four{
+    transition:  all 0.2s linear 3.2s;
+    height:7%
+}
+.first.current .content-five{
+    transition:  all 0.2s linear 3.4s;
+    opacity: 1;
+}
+
+.first .arrows_one{
+    position: absolute;
+    width: 3.3%;
+    height: 4.2%;
+    left:10%;
+    top:70%;
+}
+
+.first .arrows_two{
+    position: absolute;
+    width: 3.3%;
+    height: 4.2%;
+    left:77%;
+    top:61%;
+}
+.first .clouds_one{
+    position: absolute;
+    width: 2.8%;
+    height: 4.2%;
+    left:88%;
+    top:33%;
+}
+.first .clouds_two{
+    position: absolute;
+    width: 2.8%;
+    height: 4.2%;
+    left:13%;
+    bottom:5%;
+}
+.first .tests_one{
+    position: absolute;
+    width: 3%;
+    height: 5%;
+    left:11%;
+    bottom:58%;
+}
+
+.first .tests_two{
+    position: absolute;
+    width: 3%;
+    height: 5%;
+    left:90%;
+    bottom:10%;
+}
+.first .pluses_one{
+    position: absolute;
+    width: 2.5%;
+    height: 3.8%;
+    left:90%;
+    bottom:80%;
+}
+.first .pluses_two{
+    position: absolute;
+    width: 2.5%;
+    height: 3.8%;
+    left:94%;
+    bottom:55%;
+}
+.first .pluses_two{
+    position: absolute;
+    width: 2.5%;
+    height: 3.8%;
+    left:20%;
+    bottom:80%;
+}
+.first .pluses_there{
+    position: absolute;
+    width: 2.5%;
+    height: 3.8%;
+    left:21%;
+    bottom:43%;
+}
+.first .pluses_four{
+    position: absolute;
+    width: 2.5%;
+    height: 3.8%;
+    left:94%;
+    bottom:51%;
+}
+
+
+

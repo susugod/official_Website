@@ -1,0 +1,3947 @@
+/*@media only screen and (max-width: 1066px){*/
+
+    /*!*第一页的响应式*!*/
+    /*.first{*/
+        /*overflow-x: auto;*/
+    /*}*/
+
+    /*.logo{*/
+        /*left:25px;*/
+    /*}*/
+    /*.nav{*/
+        /*height:80px;*/
+        /*!*background-color: rgb(241,249,255);*!*/
+    /*}*/
+    /*!*.main .out_line{*!*/
+        /*!*width:467px ;*!*/
+        /*!*height:300px;*!*/
+    /*!*}*!*/
+    /*.nav ul{*/
+        /*!*left:69%;*!*/
+        /*left:700px;*/
+    /*}*/
+    /*.nav ul li{*/
+        /*margin-left:2.5%;*/
+    /*}*/
+    /*.first .content-one p span{*/
+        /*font-size: 16px;*/
+    /*}*/
+    /*.first .content-one p{*/
+        /*font-size: 12.8px;*/
+    /*}*/
+    /*.first .content-two p span{*/
+        /*font-size: 16px;*/
+    /*}*/
+    /*.first .content-two p{*/
+        /*font-size: 12.8px;*/
+    /*}*/
+
+    /*.first .content-there p span{*/
+        /*font-size: 16px;*/
+    /*}*/
+    /*.first .content-there p{*/
+        /*font-size: 12.8px;*/
+    /*}*/
+
+    /*.first .content-four p span{*/
+        /*font-size: 16px;*/
+    /*}*/
+    /*.first .content-four p{*/
+        /*font-size: 12.8px;*/
+    /*}*/
+
+    /*.first .content-five p span{*/
+        /*font-size: 16px;*/
+    /*}*/
+    /*.first .content-five p{*/
+        /*font-size: 12.8px;*/
+    /*}*/
+/*!*第二页的响应式*!*/
+    /*.second .second_title{*/
+        /*font-size: 24px;*/
+        /*padding-left: 107px;*/
+    /*}*/
+
+
+  /*!*第三页的响应式*!*/
+    /*.third .third_title{*/
+        /*font-size: 24px;*/
+        /*padding-left: 107px;*/
+    /*}*/
+
+    /*!*第四页的响应式*!*/
+    /*.fourth .fourth_title{*/
+        /*font-size: 24px;*/
+        /*padding-left: 107px;*/
+    /*}*/
+
+    /*!*第五页的响应式*!*/
+    /*.fifth .fifth_title{*/
+        /*font-size: 24px;*/
+        /*padding-left: 107px;*/
+    /*}*/
+
+/*}*/
+
+/*横向响应式条件判断*/
+@media only screen and (max-width: 1445px){
+    .nav ul{
+        left:700px;
+    }
+}
+@media only screen and (max-width: 1230px) {
+
+    .nav ul {
+        left: 500px;
+    }
+}
+/*最小屏幕上导航条的logo跟 导航的变化*/
+@media screen and (max-height:725px) and (max-width:843px) {
+
+       .nav .logo{
+           left:83px!important; ;
+       }
+       .nav ul li {
+           margin-left: 20px !important;
+       }
+
+       .second_title{
+            padding-left: 23px;
+       }
+
+       .third_title{
+           padding-left: 254px!important;
+           text-align: left !important;
+       }
+
+}
+
+/*中屏幕上导航条的logo跟 导航的变化*/
+
+    @media screen  and (max-width:1340px)and(min-width:843px){
+          .second_title{
+                 padding-left: 200px !important;
+                 text-align:left !important;
+             }
+           .third_title{
+            padding-left: 413px!important;
+            text-align: left !important;
+          }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*纵向的响应式   726  笔记本电脑上的尺寸*/
+@media only screen and (max-height: 726px){
+    body{position: relative;}
+    /*第一页响应式*/
+    .first{
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*position:relative;*/
+        font-size: 14px;
+        overflow: auto;
+        background-color: #4EB4FF !important;
+    }
+    .first .box{
+        position: relative;
+        width:800px;
+        height:686.4px;
+        margin: 0 auto;
+    }
+
+    .logo{
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        left:220px;
+        width: 101px;
+        height: 33px;
+    }
+
+    .logo  img{
+        width: 101px;
+        height: 33px;
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /*height: 107px;*/
+        height:80px;
+        background-color: #4EB4FF;
+        z-index: 9;
+    }
+    .nav ul{
+        position:absolute;
+        top:50%;
+        transform: translateY(-50%);
+        /*left:35.5%;*/
+        right:0;
+        height:80px;
+        line-height:80px;
+        width: 713px;
+    }
+    .nav ul li{
+        float: left;
+        margin-left:65px;
+        /*padding-top:4% ;*/
+
+    }
+    .first_features{
+        display: inline-block;
+        border-bottom: 2px solid #FFFFFF;
+        height:52px;
+    }
+
+
+    /*.first .nav ul li:nth-child(5){*/
+    /*padding-bottom: 3%;*/
+    /*}*/
+    /*.first .nav ul li:hover{*/
+    /*border-bottom: 2px solid #ffffff;*/
+    /*}*/
+
+    .nav ul li a{
+        color:#ffffff;
+        font-size: 14px;
+        font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+    }
+
+
+    .nav ul li a:not(.first_top):hover{
+        border-bottom: 2px solid #ffffff;
+        display:inline-block;
+        height:54px;
+    }
+    .first_top{
+        border: 2px solid #ffffff;
+        display: inline-block;
+        width: 60px;
+        height: 24px;
+        line-height: 27px;
+        border-radius: 20px;
+        padding-left: 24px;
+        padding-right: 18px;
+        margin-top: -12px;
+        padding-bottom:4%;
+    }
+    .first_top:hover{
+        background-color: #ffffff;
+        color:#4EB4FF;
+        box-shadow: 0px 0px 12px 0px rgba(255,255,255,0.5);
+    }
+
+    /*.main{*/
+    /*position: relative;*/
+    /*bottom:0;*/
+    /*!*left:50%;*!*/
+    /*!*transform: translateX(-50%);*!*/
+    /*margin: 0 auto;*/
+    /*height:430.8px;*/
+    /*width:670.4px;*/
+    /*background-color:red;*/
+    /*}*/
+    .main .out_line{
+        position: absolute;
+        bottom: 0px;
+        left:129px;
+        width: 536.32px;
+        height: 344.64px;
+        background-color: #ffffff;
+        border:3px solid #A6DCFF;
+        border-radius: 32px 32px 0px 0px;
+    }
+    .main .ball{
+        position: absolute;
+        top:5%;
+        left:50%;
+        margin-left: -4px;
+        width: 6.4px;
+        height: 6.4px;
+        border-radius: 4px;
+        background-color: rgb(115,190,255);
+    }
+    .main .in_line{
+        position: absolute;
+        /*left: 3.2%;*/
+        left:2.8%;
+        bottom: 0;
+        margin-top: 8.3%;
+        margin-bottom: 2%;
+        height: 86%;
+        width: 94%;
+        background-color: #007aff;
+        border: 1px solid #83AADB;
+        border-bottom:2px solid #6891CD;
+        border-right:2px solid #6891CD;
+    }
+    .main .in_line .left{
+        position: absolute;
+        left:0;
+        width:50%;
+        height:100%;
+        background-color: #C7E7FF;
+    }
+
+    .main .in_line .left .broken_line{
+        height: 151.2px;
+        width: 145.6px;
+        margin-top: 17%;
+        margin-left: 22%;
+        margin-bottom: 2%;
+    }
+
+    /*.main .first_data{*/
+    /*display: block;*/
+    /*width: 34%;*/
+    /*height:10%;*/
+    /*margin-top: 7%;*/
+    /*margin-left: 31%;*/
+    /*}*/
+
+
+    .main .first_data{
+        margin-top: 7%;
+        margin-left: 28%;
+        width: 40%;
+        height:10%;
+        font-size: 25px;
+        font-weight: 700;
+        color:#495C76;
+    }
+
+    .main .in_line .right{
+        position: absolute;
+        right:0;
+        width: 50%;
+        height:100%;
+        background-color: #84CBFF;
+        border-left:2px solid #6891CD;
+    }
+    .main .in_line .right .right-wrong{
+        height: 124.8px;
+        width: 171.2px;
+        margin-top: 24%;
+        margin-bottom: 2%;
+        margin-left: 17%;
+    }
+
+    .first .first_think{
+        width: 40%;
+        height:10%;
+        margin-top: 10%;
+        margin-left: 29%;
+        font-size: 25px;
+        font-weight: 700;
+        color:#495C76;
+    }
+    /*.main .in_line .right h3{*/
+    /*font-size:27px;*/
+    /*font-weight: 600;*/
+    /*margin-left: 26%;*/
+    /*color: rgb(48,62,87);*/
+    /*margin-top: 10%;*/
+    /*}*/
+
+
+    .main .in_line .left h3{
+        font-size:27px;
+        font-weight: 600;
+        margin-left: 26%;
+        color: rgb(48,62,87);
+        margin-top: 10%;
+    }
+
+    .first_data{
+        width: 19%;
+        height: 5%;
+    }
+    /*第一个虚线*/
+    .first .line-one-one{
+        position: absolute;
+        right:672px;
+        top:379px;
+        height: 5px;
+        width:0;
+        border-top: 5px dotted  #97D3FF;
+    }
+    .first .line-one-two{
+        position: absolute;
+        left: 87px;
+        /*top:43%;*/
+        bottom:303px;
+        height: 0;
+        width:5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+    /*第一个文字和图片*/
+    .first .content-one{
+        position: absolute;
+        left:70px;
+        top:241px;
+        opacity: 0;
+    }
+    .first .content-one img{
+        float: left;
+        width: 43.2px;
+        height:43.2px;
+    }
+    .first .content-one p{
+        font-weight: 600;
+        float: left;
+        color:#ffffff;
+        padding-left:12px;
+        padding-top:9px;
+        font-size: 16px;
+    }
+    .first .content-one p span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    /*动画序列*/
+    .first.current .line-one-one{
+        transition:  all 0.2s linear ;
+        width:5.12%;
+    }
+
+    .first.current .line-one-two{
+        transition:  all 0.2s linear 0.2s;
+        height: 14.4%;
+    }
+    .first.current .content-one{
+        transition:  all 0.2s linear 0.4s;
+        opacity: 1;
+    }
+
+    /*第二个虚线*/
+    .first .line-two-one{
+        position: absolute;
+        left:317px;
+        bottom:349px;
+        height:0;
+        width: 5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+
+    .first .line-two-two{
+        position: absolute;
+        right:477px;
+        top:239px;
+        height:5px;
+        width: 0;
+        border-top: 5px dotted  #97D3FF;
+    }
+
+    .first .line-two-there{
+        position: absolute;
+        left:240px;
+        /*top:25%;*/
+        bottom:448px;
+        height:0;
+        width: 5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+    /*第二个文字和图片*/
+    .first .content-two{
+        position: absolute;
+        left:221px;
+        top:164px;
+        opacity: 0;
+    }
+    .first .content-two img{
+        float: left;
+        width: 43.2px;
+        height:43.2px;
+    }
+    .first .content-two p{
+        font-weight: 600;
+        float: left;
+        color:#ffffff;
+        padding-left:12px;
+        padding-top:9px;
+        font-size: 16px;
+    }
+    .first .content-two p span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    /*第二根虚线开始*/
+    .first.current .line-two-one{
+        transition:  all 0.2s linear 0.6s;
+        height:14.4%;
+    }
+
+    .first.current .line-two-two{
+        transition:  all 0.2s linear 0.8s;
+        width:10.4%;
+    }
+    .first.current .line-two-there{
+        transition:  all 0.2s linear  1s;
+        height:4.32%;
+    }
+    .first.current  .content-two{
+        transition:  all 0.2s linear  1.2s;
+        opacity: 1;
+    }
+
+    /*第三条虚线*/
+    .first .line-there{
+        position: absolute;
+        left:362px;
+        bottom:350px;
+        height:0;
+        width: 5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+    /*第三屏的文字和动画*/
+    .first .content-there{
+        position: absolute;
+        left:343px;
+        top:250px;
+        opacity: 0;
+    }
+    .first .content-there img{
+        float: left;
+        width: 43.2px;
+        height:43.2px;
+    }
+    .first .content-there p{
+        font-weight: 600;
+        float: left;
+        color:#ffffff;
+        padding-left:12px;
+        padding-top:9px;
+        font-size: 16px;
+    }
+    .first .content-there p span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .first.current .line-there{
+        transition:  all 0.2s linear 1.4s;
+        height:7.52%;
+    }
+    .first.current .content-there{
+        transition:  all 0.2s linear 1.6s;
+        opacity: 1;
+    }
+
+    /*第四条虚线*/
+    .first .line-four-one{
+        position: absolute;
+        left:595px;
+        bottom:347px;
+        height:0;
+        width: 5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+
+    .first .line-four-two{
+        position: absolute;
+        /*left:55%;*/
+        right:204px;
+        top:241px;
+        height:5px;
+        width: 0;
+        border-top: 5px dotted  #97D3FF;
+    }
+    .first .line-four-there{
+        position: absolute;
+        left:513px;
+        bottom:446px;
+        height:0px;
+        width: 5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+    /*第四屏文字和动画*/
+    .first .content-four{
+        position: absolute;
+        left:495px;
+        top:169px;
+        opacity: 0;
+    }
+    .first .content-four img{
+        float: left;
+        width: 43.2px;
+        height:43.2px;
+    }
+    .first .content-four p{
+        font-weight: 600;
+        float: left;
+        color:#ffffff;
+        padding-left:12px;
+        padding-top:9px;
+        font-size: 16px;
+    }
+    .first .content-four p span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    /*第四根虚线动画开始*/
+    .first.current  .line-four-one{
+        transition:  all 0.2s linear 1.8s;
+        height:14.4%;
+    }
+    .first.current .line-four-two{
+        transition:  all 0.2s linear 2s;
+        width: 10.4%;
+    }
+    .first.current .line-four-there{
+        transition:  all 0.2s linear 2.2s;
+        height:4.32%;
+    }
+    .first.current .content-four{
+        transition:  all 0.2s linear 2.4s;
+        opacity: 1;
+    }
+
+    /*第五条虚线*/
+    .first .line-five-one{
+        position: absolute;
+        left:668px;
+        top:416px;
+        height: 5px;
+        width:0;
+        border-top: 5px dotted  #97D3FF;
+    }
+    .first .line-five-two{
+        position: absolute;
+        left:711px;
+        /*top:46%;*/
+        bottom:268px;
+        height:0;
+        width: 5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+
+    .first .line-five-there{
+        position: absolute;
+        /*left:72%;*/
+        right:84px;
+        top:290px;
+        height: 5px;
+        width:0;
+        border-top: 5px dotted  #97D3FF;
+    }
+    .first .line-five-four{
+        position: absolute;
+        left:650px;
+        /*top:39%;*/
+        bottom:391px;
+        height:0;
+        width: 5px;
+        border-left: 5px dotted  #97D3FF;
+    }
+    /*第五个文字和虚线*/
+    .first .content-five{
+        position: absolute;
+        left:628px;
+        top:226px;
+        opacity: 0;
+    }
+    .first .content-five img{
+        float: left;
+        width: 43.2px;
+        height:43.2px;
+    }
+    .first .content-five p{
+        font-weight: 600;
+        float: left;
+        color:#ffffff;
+        padding-left:12px;
+        padding-top:9px;
+        font-size: 16px;
+    }
+    .first .content-five p span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    /*第五根虚线的动画*/
+    .first.current .line-five-one{
+        transition:  all 0.2s linear 2.6s;
+        width:5.92%;
+    }
+    .first.current .line-five-two{
+        transition:  all 0.2s linear 2.8s;
+        height:17.6%;
+    }
+    .first.current .line-five-there{
+        transition:  all 0.2s linear 3s;
+        width:8.2%;
+    }
+    .first.current .line-five-four{
+        transition:  all 0.2s linear 3.2s;
+        height:5.6%
+    }
+    .first.current .content-five{
+        transition:  all 0.2s linear 3.4s;
+        opacity: 1;
+    }
+
+    .first .arrows_one{
+        position: absolute;
+        width: 3.3%;
+        height: 4.2%;
+        left:10%;
+        top:70%;
+    }
+
+    .first .arrows_two{
+        position: absolute;
+        width: 3.3%;
+        height: 4.2%;
+        left:77%;
+        top:61%;
+    }
+    .first .clouds_one{
+        position: absolute;
+        width: 2.8%;
+        height: 4.2%;
+        left:88%;
+        top:33%;
+    }
+    .first .clouds_two{
+        position: absolute;
+        width: 2.8%;
+        height: 4.2%;
+        left:13%;
+        bottom:5%;
+    }
+    .first .tests_one{
+        position: absolute;
+        width: 3%;
+        height: 5%;
+        left:11%;
+        bottom:58%;
+    }
+
+    .first .tests_two{
+        position: absolute;
+        width: 3%;
+        height: 5%;
+        left:90%;
+        bottom:10%;
+    }
+    .first .pluses_one{
+        position: absolute;
+        width: 2.5%;
+        height: 3.8%;
+        left:90%;
+        bottom:80%;
+    }
+    .first .pluses_two{
+        position: absolute;
+        width: 2.5%;
+        height: 3.8%;
+        left:94%;
+        bottom:55%;
+    }
+    .first .pluses_two{
+        position: absolute;
+        width: 2.5%;
+        height: 3.8%;
+        left:20%;
+        bottom:80%;
+    }
+    .first .pluses_there{
+        position: absolute;
+        width: 2.5%;
+        height: 3.8%;
+        left:21%;
+        bottom:43%;
+    }
+    .first .pluses_four{
+        position: absolute;
+        width: 2.5%;
+        height: 3.8%;
+        left:94%;
+        bottom:51%;
+    }
+
+
+    /*第二页响应式高度726*/
+    .second{
+        background-color: #fff !important;
+        overflow: hidden;
+    }
+
+    .second .box{
+        position: relative;
+        width:800px;
+        height:513.6px;
+        margin: 0 auto;
+    }
+
+    .second .phone{
+        position: absolute;
+        width: 135.2px;
+        height: 233.6px;
+        right: 499px;
+        top: 99px;
+        opacity: 0;
+    }
+    .second .phone_white{
+        position: absolute;
+        width: 89.6px;
+        height: 127.2px;
+        top:145px;
+        right: 522px;
+        opacity: 0;
+    }
+    .second .phone_blue{
+        position: absolute;
+        width: 89.6px;
+        height: 127.2px;
+        top:145px;
+        right: 522px;
+        opacity: 0;
+    }
+    .second .cloud{
+        position: absolute;
+        height:299.2px;
+        width: 291.2px;
+        top:31px;
+        left:368px;
+        right:0;
+    }
+    /*手机里面的动画部分*/
+    .second.current .phone{
+        transition:  all 0.4s linear 0.4s;
+        opacity: 1;
+    }
+    .second.current .phone_white{
+        transition:  all 0.4s linear 0.8s;
+        opacity: 1;
+    }
+    .second.current  .phone_blue{
+        transition:  all 0.4s linear 2s;
+        opacity: 1;
+    }
+
+    /*虚线部分*/
+
+    /*虚线部分*/
+    /*第一条虚线*/
+    .second .line_one{
+        position: absolute;
+        top:186px;
+        right:433px;
+        height:9px;
+        width: 0;
+        border-top:9px dotted #FFC94F;
+    }
+    .second.current .line_one{
+        transition:  all 0.3s linear;
+        width: 8%;
+    }
+
+    /*第二条虚线*/
+    .second .line_two{
+        position: absolute;
+        top:347px;
+        right:553px;
+        height:184px;
+        width: 9px;
+        border-left:9px dotted #FFC94F;
+        z-index: 99;
+    }
+
+    /*.second.current .line_two{*/
+        /*transition:  all 0.6s linear 2.4s;*/
+        /*height:184px;*/
+    /*}*/
+    /*第三条虚线*/
+
+
+    .second .line_there{
+        position: absolute;
+        width: 378.4px;
+        height: 128px;
+        left:228px;
+        top:400px;
+    }
+    .second .cover {
+        position: absolute;
+        width: 378.4px;
+        height: 186px;
+        left: 228px;
+        /*top:400px;*/
+        bottom: -18px;
+        background-color: #FFFFFF;
+        /*background-color: orangered;*/
+        z-index: 99;
+    }
+    .second.current .cover{
+        animation: cover_heightone 0.3s 2.6s  forwards;
+    }
+    @keyframes cover_heightone {
+        0%{height: 186px}
+        100%{height: 0}
+    }
+    .second .second_text{
+        position: absolute;
+        width: 259.2px;
+        height: 62.4px;
+        left:384px;
+        top:365px;
+        opacity: 0;
+        z-index: 120;
+    }
+    .second.current .second_text{
+        transition:  all 0.4s linear 2.2s;
+        opacity: 1;
+    }
+
+    /*.second .second_title{*/
+    /*background: url(../images/p2_title.png)no-repeat center top;*/
+    /*height: 160px;*/
+    /*width: 100%;*/
+    /*z-index: 9;*/
+    /*}*/
+
+    .second .second_title{
+        /*position: absolute;*/
+        /*top: 0;*/
+        background: #3E506A;
+        text-align: center;
+        height: 130px;
+        width: 100%;
+        /*z-index: 9;*/
+        line-height: 130px;
+        color:#FFFFFF;
+        font-size: 24px;
+    }
+    .second .line_four{
+        position: absolute;
+        left:229px;
+        top:531px;
+        height:0px;
+        width:9px;
+        border-left:9px dotted #FFC94F;
+    }
+    .second .line_five{
+        position: absolute;
+        left:596px;
+        top:531px;
+        height:0px;
+        border-left:9px dotted #50E3C2;
+    }
+
+
+
+    /*第三页的响应式*/
+
+    .third{
+        overflow: hidden;
+        background-color: #F79C82 !important;
+    }
+    .third .box{
+        position: relative;
+        width:800px;
+        height:504.8px;
+        margin: 0 auto;
+    }
+
+    .third .top_text{
+        position: absolute;
+        top:0;
+        width: 100%;
+        background-color: #3e506a;
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        padding: 4.5% 0 4% 0;
+    }
+
+    /*图片部分*/
+    .third .main_left{
+        position: absolute;
+        left: 37px;
+        top:74px;
+        width: 303.2px;
+        height: 322.4px;
+        opacity: 0;
+
+    }
+    .third  .main_left_face{
+        position: absolute;
+        left:76px;
+        top:217px;
+        width: 97.6px;
+        height: 84px;
+        opacity: 0;
+    }
+
+    /*左侧图片部分动画*/
+    .third.current .main_left{
+        transition:  all 0.4s linear 0.5s;
+        opacity: 1;
+
+    }
+    .third.current .main_left_face{
+        transition:  all 0.4s linear 1.2s;
+        opacity: 1;
+    }
+    .third .main_right{
+        position: absolute;
+        right: 37px;
+        top:74px;
+        width: 303.2px;
+        height: 322.4px;
+        opacity: 0;
+
+    }
+
+    .third .main_right_face{
+        position: absolute;
+        left:495px;
+        top:218px;
+        width: 97.6px;
+        height: 84px;
+        opacity: 0;
+    }
+    /*右侧图片动画*/
+    .third.current .main_right{
+        transition:  all 0.4s linear 0.5s;
+        opacity: 1;
+
+    }
+
+    .third.current .main_right_face{
+        transition:  all 0.4s linear 1.2s;
+        opacity: 1;
+    }
+
+    /*虚线部分*/
+    .third  .line_one{
+        position: absolute;
+        left:186px;
+        top:0px;
+        height: 0;
+        width: 9px;
+        border-left:9px dotted #FFC94F;
+    }
+    .third .line_two{
+        position: absolute;
+        left:607px;
+        top:0px;
+        height: 0;
+        width: 9px;
+        border-left:9px dotted #50E3C2;
+    }
+    .third.current .line_one{
+        transition:  all 0.5s linear ;
+        height: 14%;
+    }
+    .third.current .line_two{
+        transition:  all 0.5s linear ;
+        height: 14%;
+    }
+
+
+    .third .main_title{
+        background: url(../images/p3_title.png) no-repeat center top;
+        height: 130px;
+        width: 100%;
+        z-index: 9;
+
+    }
+    .third .main_text{
+        position: absolute;
+        width: 208.8px;
+        height: 61.6px;
+        left:273px;
+        top:18px;
+        opacity: 0;
+    }
+    .third.current  .main_text{
+        transition:  all 0.4s linear 1.2s;
+        opacity: 1;
+    }
+    .third   .line_there{
+        position: absolute;
+        bottom: -9px;
+        left: 203px;
+        width: 420.8px;
+        height: 114.3px;
+
+    }
+
+
+    .third .line_above{
+        position: absolute;
+        /*top:403px;*/
+        bottom:-9px;
+        left: 203px;
+        width: 420.8px;
+        height: 114.3px;
+        background-color: #F79C82;
+        /*background-color: #50E3C2;*/
+    }
+    .third.current .line_above{
+        animation: cover_heightone 1s 2.4s  forwards;
+    }
+
+
+    @keyframes cover_heightone {
+        0%{height: 114.3px}
+        100%{height: 0}
+    }
+    /*.third.current .line_above{*/
+        /*transition:  all 0.8s linear 1.6s;*/
+        /*transform: translateY(110%);*/
+    /*}*/
+    /*.third.current .line_above{*/
+    /*transition:  all 0.2s linear 2.4s;*/
+    /*display: none;*/
+    /*}*/
+
+
+    .third .third_title{
+        background: #3E506A;
+        text-align: center;
+        height: 130px;
+        width: 100%;
+        /*z-index: 9;*/
+        line-height: 130px;
+        color:#FFFFFF;
+        font-size: 24px;
+    }
+
+    .third .line_four{
+        position: absolute;
+        top:514px;
+        left:429px;
+        height: 0px;
+        border-left:9px dotted #FFC94F;
+    }
+
+
+
+    /*第四页的响应式*/
+
+
+
+    .fourth{
+        overflow: auto;
+        background-color: #FFFFFF !important;
+    }
+    .fourth .box{
+        position: relative;
+        width:800px;
+        height:512.8px;
+        margin: 0 auto;
+    }
+    /*.fourth .four_title{*/
+    /*background: url(../images/p4_title.png) no-repeat center top;*/
+    /*width:100%;*/
+    /*height:162px;*/
+    /*z-index: 99;*/
+    /*}*/
+
+
+
+    .fourth .four_text{
+        position: absolute;
+        top:9px;
+        /*left:92px;*/
+        /*width: 304.8px;*/
+        width:325.8px;
+        left:55px;
+        height: 64px;
+        opacity: 0;
+    }
+
+    .fourth .four_text p:nth-child(1){
+        font-size: 12.8px;
+        color: #57677E;
+        text-align: center;
+        margin-top:11px;
+
+    }
+
+    .fourth .four_text p:nth-child(2){
+        font-size: 12.8px;
+        color: #57677E;
+        text-align: center;
+        margin-top: 7px;
+        margin-left: 0;
+    }
+
+
+    .fourth .clock{
+        position: absolute;
+        left: 398px;
+        top:26px;
+        width: 74.8px;
+        height: 74.8px;
+    }
+
+    .fourth .line_one{
+        position: absolute;
+        height: 4.64%;
+        width: 9px;
+        left:432px;
+        top:0px;
+        border-left:7px dotted  #FFC94F;
+    }
+
+    .fourth .line_two{
+        position: absolute;
+        height: 4.64%;
+        width: 9px;
+        left:432px;
+        top:103px;
+        border-left:7px dotted  #FFC94F;
+    }
+    .fourth .computer{
+        position: absolute;
+        left:46px;
+        top:130px;
+        width: 529.6px;
+        height: 333.6px;
+    }
+
+    .fourth .phone{
+        position:absolute;
+        height:184px;
+        width:107.2px;
+        left:71px;
+        top:83px;
+        opacity: 0;
+    }
+    .fourth .pie{
+        position: absolute;
+        height:141.6px;
+        width: 143.2px;
+        left:239px;
+        top: 185px;
+        opacity: 0;
+    }
+    .fourth .pie_sf{
+        position: absolute;
+        height:19.2px;
+        width: 44px;
+        left:245px;
+        top: 235px;
+        opacity: 0;
+    }
+    .fourth .pie_tf{
+        position: absolute;
+        height:23.2px;
+        width: 47.2px;
+        left:307px;
+        top: 220px;
+        opacity: 0;
+    }
+    .fourth .people{
+        position: absolute;
+        height:198.4px;
+        width: 198.4px;
+        left:586px;
+        top: 188px;
+    }
+
+    .fourth .people_face{
+        position: absolute;
+        height:152px;
+        width: 179.2px;
+        left:595px;
+        top: 210px;
+        opacity: 0;
+    }
+    .fourth .ok{
+        position: absolute;
+        bottom: 165px;
+        left: 370px;
+        width: 72px;
+        height:20px;
+        opacity: 0;
+    }
+    .fourth .correct{
+        position: absolute;
+        height:39.2px;
+        width:39.2px;
+        top: 246px;
+        left:169px;
+        opacity: 0;
+    }
+    .fourth .watch{
+        position: absolute;
+        /*height:9.5%;*/
+        /*width: 10.6%;*/
+        height: 43.2px;
+        line-height:44px;
+        width:97.6px;
+        text-align: center;
+        left:521px;
+        top:37px;
+        border: 3px  solid #606689;
+        border-bottom: 2px  solid #606689;
+        border-radius: 7px;
+        font-size: 30px;
+        color:#606689;
+    }
+    .fourth .watch span{
+        font-size: 30px;
+        color:#606689;
+    }
+    .fourth .arrow{
+        position: absolute;
+        width: 84.8px;
+        height:40px;
+        left:489px;
+        top:266px;
+    }
+
+    /*第一步动画*/
+    .fourth.current .people_face{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth.current .pie{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth.current .people_face{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth.current .phone{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+
+    .fourth.current .four_text{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth.current .ok{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth.current .pie_sf{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth.current .pie_tf{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth.current .correct{
+        transition:  all 0.5s linear 1.6s;
+        opacity: 1;
+    }
+    .fourth .fourth_title{
+        background: #3E506A;
+        text-align: center;
+        height: 130px;
+        width: 100%;
+        /*z-index: 9;*/
+        line-height: 130px;
+        color:#FFFFFF;
+        font-size: 24px;
+    }
+
+    /*第五页的响应式*/
+
+
+
+
+    .fifth {
+        position: relative;
+        overflow: hidden;
+        background-color: #F79C82;
+    }
+
+
+    /*.fifth .fifth_title{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*background: url(../images/p5_title.png) no-repeat  center top;*/
+    /*height:162px;*/
+    /*width: 100%;*/
+    /*}*/
+
+    .fifth .fifth_title{
+        background: #3E506A;
+        text-align: center;
+        height: 129.6px;
+        width: 100%;
+        /*z-index: 9;*/
+        line-height: 129.6px;
+        color:#FFFFFF;
+        font-size: 24px;
+    }
+
+    .content {
+        width: 100%;
+        height: 80%;
+        position: absolute;
+        top: 93px;
+    }
+
+    .content .bg {
+        position: absolute;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*.content .carousel {*/
+    /*width: 490px;*/
+    /*height: 305px;*/
+    /*position: absolute;*/
+    /*top: 12%;*/
+    /*left: 50%;*/
+    /*transform: translateX(-50%);*/
+    /*}*/
+
+    .content .swiper-container {
+        width: 486px;
+        height: 302px;
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .one_left {
+        position: absolute;
+        top: 8%;
+        left: 7%;
+    }
+
+    .one_right {
+        position: absolute;
+        top: 8%;
+        left: 65%;
+    }
+
+    .two_app {
+        position: absolute;
+        top: 25%;
+        left: 12%;
+    }
+
+    .two_sdk {
+        position: absolute;
+        top: 28%;
+        left: 52%;
+    }
+
+    .two_hand {
+        position: absolute;
+        top: 56%;
+        left: 56%;
+    }
+
+
+    /*slide第二屏动画*/
+    .fifth.current .two_sdk{
+        transition:  all 2s ease-in-out 0s;
+        transform: translateX(-190%);
+    }
+
+    .fifth.current .two_hand{
+        transition:  all 2s ease-in-out 0s;
+        transform: translateX(-295%);
+    }
+    .fifth.current .two_point{
+        transition:  all 2s ease-in-out 0s;
+        transform: translateX(-590%);
+    }
+
+    .three_phone {
+        position: absolute;
+        top: 8%;
+        left: 5%;
+        /*设置透明度*/
+        /*opacity: 0;*/
+    }
+
+    .four_txt {
+        width: 294.4px;
+        height: 99.2px;
+        border: 2px solid #606689;
+        border-radius: 5px;
+        background-color: #DFEDFF;
+        color: #606689;
+        font-size: 14px;
+        position: absolute;
+        left: 12%;
+        top: 28%;
+    }
+
+    .four_txt p {
+        text-align: center;
+        height: 24px;
+        line-height: 24px;
+        margin-top: 4.8px;
+    }
+
+    /*埋点动画*/
+    .two_point {
+        width: 32px;
+        height: 32px;
+        background-color: #FFF;
+        border-radius: 16px;
+        position: absolute;
+        left: 58%;
+        top: 50%;
+    }
+
+    .two_point::after, .two_point::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border-radius: 25px;
+    }
+
+
+    /*.three_one{*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-color: #FFF;*/
+    /*border-radius: 25px;*/
+    /*animation: scale 1s infinite linear;*/
+    /*}*/
+
+    /*.three_two{*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-color: #FFF;*/
+    /*border-radius: 25px;*/
+    /*animation: scale 1s 0.5s infinite linear;*/
+    /*}*/
+
+
+    .two_point::after {
+        animation: scale 1s infinite linear;
+    }
+
+    .two_point::before {
+        animation: scale 1s 0.5s infinite linear;
+    }
+
+    @keyframes scale {
+        0% {
+            /*transform: scale(1);
+            opacity: 1;*/
+        }
+        /**/
+        100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+    .three_one {
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        position: absolute;
+        left: 37%;
+        top: 20%;
+        /*设置透明度*/
+        opacity: 0;
+    }
+
+    .three_two {
+        width: 24px;
+        height: 24px;
+        border-radius: 15px;
+        position: absolute;
+        left: 57%;
+        top: 59%;
+        /*设置透明度*/
+        opacity: 0;
+    }
+
+
+    /*slide第三屏动画*/
+
+    .fifth.current .three_one{
+        transition:  all 0.4s linear 4.5s;
+        opacity: 1;
+    }
+    .fifth.current .three_two{
+        transition:  all 0.4s linear 4.5s;
+        opacity: 1;
+    }
+
+    /*.fifth.current .three_phone{*/
+    /*transition:  all 1s linear 10s;*/
+    /*opacity: 1;*/
+    /*}*/
+
+    /*动画*/
+    /*.animate.current .three_phone {*/
+    /*transition: all 0.2s ease-in-out;*/
+    /*opacity: 1;*/
+    /*}*/
+
+    /*.animate.current .three_one {*/
+    /*transition: all 0.4s ease-in-out;*/
+    /*opacity: 1;*/
+    /*}*/
+
+    /*.animate.current .three_two {*/
+    /*transition: all 0.6s ease-in-out;*/
+    /*opacity: 1;*/
+    /*}*/
+    .fp-slides {
+        top:16%!important;
+    }
+
+
+  /*第六页的响应式*/
+
+
+    .sixth{
+        position: relative;
+        background-color: #4EB4FF;
+        overflow: auto !important;
+    }
+
+    .sixth .box{
+        position: relative;
+        width:768px;
+        /*height:700px;*/
+        height: 478.8px;
+        margin: 0 auto;
+    }
+
+
+    .sixth .sixth_img{
+        position: absolute;
+        left: 0px;
+        top: 148px;
+        width: 326.4px;
+        height: 241.6px;
+    }
+
+    .sixth .sixth_form {
+        position: absolute;
+        width: 347.6px;
+        height: 371.2px;
+        right:0px;
+        top: 20px;
+        background-color: #C3E7FF;
+        border: 8px solid #98D3FF;
+        border-radius: 14px;
+
+    }
+    .sixth .sixth_form h3{
+        font-size: 17.6px;
+        font-weight: 700;
+        color:#356C94;
+        margin-top: 8%;
+        margin-left: 37%;
+    }
+
+    .sixth input{
+        height: 11%;
+        width:83%;
+        margin-top: 5%;
+        margin-left:7%;
+        padding-left:3%;
+        font-size: 16px;
+        color:#89A9C0;
+    }
+    .sixth input:hover{
+        border-left: 1px solid #82A4BD;
+        border-right: 1px solid #82A4BD;
+        border-top: 1px solid #82A4BD;
+
+    }
+    .sixth input:nth-last-child{
+        margin-bottom: 10%;
+    }
+
+    /*.sixth .login{*/
+        /*display: block;*/
+        /*color:#ffffff;*/
+        /*background-color: #F5A623;*/
+        /*margin-top: 6%;*/
+        /*margin-left: 20%;*/
+        /*margin-right: 20%;*/
+        /*padding:4% 10%;*/
+        /*border-radius: 36px;*/
+        /*font-size: 14.4px;*/
+        /*text-align: center;*/
+        /*font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+    /*}*/
+
+    /*.sixth .login:hover{*/
+        /*background-color: #FFFFFF;*/
+        /*color:#F5A623;*/
+    /*}*/
+
+
+
+    .sixth .login{
+        display: block;
+        margin-top: 6%;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding:4% 10%;
+        border-radius: 36px;
+        }
+
+        .sixth .login  .submit{
+        position: absolute;
+        left: 74px;
+        top: 303px;
+        width: 194px;
+        height: 49px;
+        opacity: 1;
+        }
+
+        .sixth .login  .send{
+        position: absolute;
+        left: 74px;
+        top: 303px;
+        width: 194px;
+        height: 49px;
+        opacity: 0;
+        }
+        .sixth .login  .jingguo{
+        position: absolute;
+        left: 64px;
+        top: 294px;
+        width: 214px;
+        height: 68px;
+        opacity: 0;
+        }
+
+
+        .sixth .login  .disable{
+        position: absolute;
+        left: 74px;
+        top: 303px;
+        width: 194px;
+        height: 49px;
+        opacity: 0;
+        }
+
+
+
+
+            .sixth .sixth_footer{
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 27.2%;
+                background-color: #FFFFFF;
+                /*padding-left: 15%;*/
+    }
+    dl{
+        float: left;
+        font-size: 12.8px;
+        font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    dt>a{
+        font-weight: 700;
+        color:#7A7A7A;
+    }
+    dd>a{
+        height:15px;
+        color:#898989;
+    }
+    .sixth dl a{
+        display: block;
+        height:30px;
+
+    }
+
+    .sixth dl:not(.product) dd a:hover{
+        text-decoration: underline;
+    }
+
+    .sixth_line{
+        position: absolute;
+        right:239px;
+        top:32px;
+        width:1px;
+        height: 105px;
+        border-left: 1px solid #D8D8D8;
+
+    }
+
+
+
+    .sixth .logo_v2{
+        position: absolute;
+        left:0;
+        top:32px;
+        width:57.6px;
+        height: 57.6px;
+    }
+    .product{
+        position: absolute;
+        left:143px;
+        top:32px;
+    }
+    .developer{
+        position: absolute;
+        left:365px;
+        top: 32px;
+    }
+    .partner{
+        position:absolute;
+        left:521px;
+        /*top: 32px;*/
+        top: 32px;
+    }
+    .center{
+        position: absolute;
+        right:0;
+        top:32px;
+    }
+    .last{
+        /*background: url("../images/p6_footer.png") no-repeat center top;*/
+        /*background-size: 100%,52px;*/
+        width: 100%;
+        height: 52px;
+        background-color:#F5F5F5;
+    }
+
+
+    .last_box{
+        position: relative;
+        width: 950px;
+        height: 54px;
+        line-height: 54px;
+        margin: 0 auto;
+        /*background-color: red;*/
+    }
+
+    .last_box img{
+        position: absolute;
+        left: 0;
+        top:16px;
+        width:22px;
+        height:22px;
+        display: inline-block;
+    }
+    .last_box p:nth-child(2){
+        position: absolute;
+        left:23px;
+        display: inline-block;
+        color:#7D7D7D;
+    }
+
+    .last_box p:nth-child(3){
+        position: absolute;
+        left:283px;
+        display: inline-block;
+        color:#7D7D7D;
+    }
+
+    .last_box p:nth-child(4){
+        position: absolute;
+        left:718px;
+        display: inline-block;
+        color:#7D7D7D;
+    }
+
+    .smile{
+        position: absolute;
+        left:110px;
+        top:315px;
+        height: 20px;
+        width:20px;
+        opacity: 0;
+    }
+
+
+    .footer_box{
+        position: relative;
+        margin: 0 auto;
+        height: 183px;
+        width: 919px;
+        margin: 0 auto;
+        /*background-color: pink;*/
+    }
+     /*第六页的sdk新增弹框*/
+
+    /*SDK弹框*/
+    .sixth .picture{
+        position: absolute;
+        width: 127.4px;
+        height: 62.4px;
+        left:427px;
+        top:69px;
+        background-color: #EFF9FF;
+        border-radius: 8px;
+        display: none;
+    }
+    /*三角*/
+    .sixth  .triangle{
+        position: absolute;
+        width: 12px;
+        height:12px;
+        transform: rotateZ(-45deg);
+        background-color: #EFF9FF;
+        left: -4px;
+        top:25px;
+    }
+    /*苹果图标*/
+    .sixth  .apple{
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        z-index: 9;
+        left:13px;
+        top:11px;
+        opacity: 1;
+    }
+
+    /*苹果经过图标*/
+    .sixth .apple-light{
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        z-index: 9;
+        left:13px;
+        top:11px;
+        opacity: 0;
+    }
+    /*苹果文字*/
+    .sixth .iossdk{
+        position: absolute;
+        height:20px;
+        width:63px;
+        z-index: 9;
+        left: 41px;
+        top: 10px;
+
+    }
+    .sixth .iossdk a{
+        color:#43769C;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+    .sixth .android{
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        z-index: 9;
+        left:13px;
+        top:37px;
+        opacity: 1;
+    }
+
+    /*安卓经过图标*/
+    .sixth .android-light{
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        z-index: 9;
+        left:13px;
+        top:37px;
+        opacity: 0;
+
+    }
+
+    /*安卓文字*/
+    .sixth .androidsdk{
+        position: absolute;
+        height: 20px;
+        width: 97px;
+        z-index: 9;
+        left:40px;
+        top:36px;
+
+
+    }
+
+    .sixth .androidsdk a{
+        color:#43769C;
+        font-size: 13px;
+    }
+
+
+    #SDK{
+        width: 100px;
+    }
+
+
+}
+
+    /*纵向的响应式   大于1000  大屏幕上的尺寸*/
+    @media only screen and (min-height: 1000px) {
+
+        /*第一页*/
+        body {
+            position: relative;
+        }
+
+        .first {
+            /*width: 100%;*/
+            /*height: 100%;*/
+            /*position:relative;*/
+            font-size: 14px;
+            overflow: auto;
+            background-color: #4EB4FF !important;
+        }
+
+        .first .box {
+            position: relative;
+            width: 1200px;
+            height: 858px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            position: absolute;
+            top: 47%;
+            transform: translateY(-50%);
+            left: 220px;
+            width: 153px;
+            height: 48.5px;
+        }
+
+        .logo img {
+            width: 164.7px;
+            height: 54px;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            /*height: 107px;*/
+            height: 96px;
+            background-color: #4EB4FF;
+            z-index: 9;
+        }
+
+        .nav ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            /*left:35.5%;*/
+            right: 0;
+            height: 96px;
+            line-height: 96px;
+            width: 855.6px;
+        }
+
+        .nav ul li {
+            float: left;
+            margin-left: 78px;
+            /*padding-top:4% ;*/
+
+        }
+
+        .first_features {
+            display: inline-block;
+            border-bottom: 2px solid #FFFFFF;
+            height: 64px;
+        }
+
+        /*.first .nav ul li:nth-child(5){*/
+        /*padding-bottom: 3%;*/
+        /*}*/
+        /*.first .nav ul li:hover{*/
+        /*border-bottom: 2px solid #ffffff;*/
+        /*}*/
+        .nav ul li a {
+            color: #ffffff;
+            font-size: 16.8px;
+            font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .nav ul li a:not(.first_top):hover{
+            border-bottom: 2px solid #ffffff;
+            display:inline-block;
+            height:65px;
+        }
+
+        .first_top {
+            border: 2px solid #ffffff;
+            display: inline-block;
+            width: 72.6px;
+            height: 28.8px;
+            line-height: 34.8px;
+            border-radius: 20px;
+            padding-left: 24px;
+            padding-right: 18px;
+            margin-top: -12px;
+            padding-bottom: 4%;
+        }
+
+        .first_top:hover {
+            background-color: #ffffff;
+            color: #4EB4FF;
+            box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.5);
+        }
+
+        /*.main{*/
+        /*position: relative;*/
+        /*bottom:0;*/
+        /*!*left:50%;*!*/
+        /*!*transform: translateX(-50%);*!*/
+        /*margin: 0 auto;*/
+        /*height:430.8px;*/
+        /*width:670.4px;*/
+        /*background-color:red;*/
+        /*}*/
+        .main .out_line {
+            position: absolute;
+            bottom: 0px;
+            left: 184px;
+            width: 804px;
+            height: 516px;
+            background-color: #ffffff;
+            border: 3px solid #A6DCFF;
+            border-radius: 32px 32px 0px 0px;
+        }
+
+        .main .ball {
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            margin-left: -4px;
+            width: 9.6px;
+            height: 9.6px;
+            border-radius: 4.8px;
+            background-color: rgb(115, 190, 255);
+        }
+
+        .main .in_line {
+            position: absolute;
+            /*left: 3.2%;*/
+            left: 2.8%;
+            bottom: 0;
+            margin-top: 8.3%;
+            margin-bottom: 2%;
+            height: 86%;
+            width: 94%;
+            background-color: #007aff;
+            border: 1px solid #83AADB;
+            border-bottom: 2px solid #6891CD;
+            border-right: 2px solid #6891CD;
+        }
+
+        .main .in_line .left {
+            position: absolute;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background-color: #C7E7FF;
+        }
+
+        .main .in_line .left .broken_line {
+            height: 226.8px;
+            width: 218.4px;
+            margin-top: 17%;
+            margin-left: 22%;
+            margin-bottom: 2%;
+        }
+
+        /*.main .first_data{*/
+        /*display: block;*/
+        /*width: 34%;*/
+        /*height:10%;*/
+        /*margin-top: 7%;*/
+        /*margin-left: 31%;*/
+        /*}*/
+        .main .first_data {
+            margin-top: 7%;
+            margin-left: 28%;
+            width: 40%;
+            height: 10%;
+            font-size: 36px;
+            font-weight: 700;
+            color: #495C76;
+        }
+
+        .main .in_line .right {
+            position: absolute;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background-color: #84CBFF;
+            border-left: 2px solid #6891CD;
+        }
+
+        .main .in_line .right .right-wrong {
+            height: 187.2px;
+            width: 256.8px;
+            margin-top: 24%;
+            margin-bottom: 2%;
+            margin-left: 17%;
+        }
+
+        .first .first_think {
+            width: 40%;
+            height: 10%;
+            margin-top: 10%;
+            margin-left: 29%;
+            font-size: 36px;
+            font-weight: 700;
+            color: #495C76;
+        }
+
+        /*.main .in_line .right h3{*/
+        /*font-size:27px;*/
+        /*font-weight: 600;*/
+        /*margin-left: 26%;*/
+        /*color: rgb(48,62,87);*/
+        /*margin-top: 10%;*/
+        /*}*/
+        .main .in_line .left h3 {
+            font-size: 32.4px;
+            font-weight: 600;
+            margin-left: 26%;
+            color: rgb(48, 62, 87);
+            margin-top: 10%;
+        }
+
+        .first_data {
+            width: 19%;
+            height: 5%;
+        }
+
+        /*第一个虚线*/
+        .first .line-one-one {
+            position: absolute;
+            right: 1017px;
+            top: 439px;
+            height: 5px;
+            width: 0;
+            border-top: 5px dotted #97D3FF;
+        }
+
+        .first .line-one-two {
+            position: absolute;
+            left: 88px;
+            /*top:43%;*/
+            bottom: 414px;
+            height: 0;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        /*第一个文字和图片*/
+        .first .content-one {
+            position: absolute;
+            left: 63px;
+            top: 232px;
+            opacity: 0;
+        }
+
+        .first .content-one img {
+            float: left;
+            width: 64.8px;
+            height: 64.8px;
+        }
+
+        .first .content-one p {
+            font-weight: 600;
+            float: left;
+            color: #ffffff;
+            padding-left: 12px;
+            padding-top: 9px;
+            font-size: 24px;
+        }
+
+        .first .content-one p span {
+            font-weight: 700;
+            font-size: 28.8px;
+        }
+
+        /*动画序列*/
+        .first.current .line-one-one {
+            transition: all 0.2s linear;
+            width: 94.8px;
+        }
+
+        .first.current .line-one-two {
+            transition: all 0.2s linear 0.2s;
+            height: 145.2px;
+        }
+
+        .first.current .content-one {
+            transition: all 0.2s linear 0.4s;
+            opacity: 1;
+        }
+
+        /*第二个虚线*/
+        .first .line-two-one {
+            position: absolute;
+            left: 413px;
+            bottom: 522px;
+            height: 0;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        .first .line-two-two {
+            position: absolute;
+            right: 781.7px;
+            top: 156px;
+            height: 5px;
+            width: 0;
+            border-top: 5px dotted #97D3FF;
+        }
+
+        .first .line-two-there {
+            position: absolute;
+            left: 171px;
+            /*top:25%;*/
+            bottom: 697px;
+            height: 0;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        /*第二个文字和图片*/
+        .first .content-two {
+            position: absolute;
+            left: 141px;
+            top: 44px;
+            opacity: 0;
+        }
+
+        .first .content-two img {
+            float: left;
+            width: 64.8px;
+            height: 64.8px;
+        }
+
+        .first .content-two p {
+            font-weight: 600;
+            float: left;
+            color: #ffffff;
+            padding-left: 12px;
+            padding-top: 9px;
+            font-size: 24px;
+        }
+
+        .first .content-two p span {
+            font-weight: 700;
+            font-size: 28.8px;
+        }
+
+        /*第二根虚线开始*/
+        .first.current .line-two-one {
+            transition: all 0.2s linear 0.6s;
+            height: 181.2px;
+        }
+
+        .first.current .line-two-two {
+            transition: all 0.2s linear 0.8s;
+            width: 247.2px;
+        }
+
+        .first.current .line-two-there {
+            transition: all 0.2s linear 1s;
+            height: 57px;
+        }
+
+        .first.current .content-two {
+            transition: all 0.2s linear 1.2s;
+            opacity: 1;
+        }
+
+        /*第三条虚线*/
+        .first .line-there {
+            position: absolute;
+            left: 507px;
+            bottom: 522px;
+            height: 0;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        /*第三屏的文字和动画*/
+        .first .content-there {
+            position: absolute;
+            left: 474px;
+            top: 190px;
+            opacity: 0;
+        }
+
+        .first .content-there img {
+            float: left;
+            width: 64.8px;
+            height: 64.8px;
+        }
+
+        .first .content-there p {
+            font-weight: 600;
+            float: left;
+            color: #ffffff;
+            padding-left: 12px;
+            padding-top: 9px;
+            font-size: 24px;
+        }
+
+        .first .content-there p span {
+            font-weight: 700;
+            font-size: 28.8px;
+        }
+
+        .first.current .line-there {
+            transition: all 0.2s linear 1.4s;
+            height: 106.8px;
+        }
+
+        .first.current .content-there {
+            transition: all 0.2s linear 1.6s;
+            opacity: 1;
+        }
+
+        /*第四条虚线*/
+        .first .line-four-one {
+            position: absolute;
+            left: 905px;
+            bottom: 522px;
+            height: 0;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        .first .line-four-two {
+            position: absolute;
+            /*left:55%;*/
+            right: 291px;
+            top: 156px;
+            height: 5px;
+            width: 0;
+            border-top: 5px dotted #97D3FF;
+        }
+
+        .first .line-four-there {
+            position: absolute;
+            left: 655px;
+            bottom: 697px;
+            height: 0px;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        /*第四屏文字和动画*/
+        .first .content-four {
+            position: absolute;
+            left: 626px;
+            top: 44px;
+            opacity: 0;
+        }
+
+        .first .content-four img {
+            float: left;
+            width: 64.8px;
+            height: 64.8px;
+        }
+
+        .first .content-four p {
+            font-weight: 600;
+            float: left;
+            color: #ffffff;
+            padding-left: 12px;
+            padding-top: 9px;
+            font-size: 24px;
+        }
+
+        .first .content-four p span {
+            font-weight: 700;
+            font-size: 28.8px;
+        }
+
+        /*第四根虚线动画开始*/
+        .first.current .line-four-one {
+            transition: all 0.2s linear 1.8s;
+            height: 181.2px;
+        }
+
+        .first.current .line-four-two {
+            transition: all 0.2s linear 2s;
+            width: 247.2px;
+        }
+
+        .first.current .line-four-there {
+            transition: all 0.2s linear 2.2s;
+            height: 57px;
+        }
+
+        .first.current .content-four {
+            transition: all 0.2s linear 2.4s;
+            opacity: 1;
+        }
+
+        /*第五条虚线*/
+        .first .line-five-one {
+            position: absolute;
+            left: 996px;
+            top: 450px;
+            height: 5px;
+            width: 0;
+            border-top: 5px dotted #97D3FF;
+        }
+
+        .first .line-five-two {
+            position: absolute;
+            left: 1107px;
+            /*top:46%;*/
+            bottom: 404px;
+            height: 0;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        .first .line-five-there {
+            position: absolute;
+            /*left:72%;*/
+            right: 92px;
+            top: 297px;
+            height: 5px;
+            width: 0;
+            border-top: 5px dotted #97D3FF;
+        }
+
+        .first .line-five-four {
+            position: absolute;
+            left: 946px;
+            /*top:39%;*/
+            bottom: 558px;
+            height: 0;
+            width: 5px;
+            border-left: 5px dotted #97D3FF;
+        }
+
+        /*第五个文字和虚线*/
+        .first .content-five {
+            position: absolute;
+            left: 915px;
+            top: 204px;
+            opacity: 0;
+        }
+
+        .first .content-five img {
+            float: left;
+            width: 64.8px;
+            height: 64.8px;
+        }
+
+        .first .content-five p {
+            font-weight: 600;
+            float: left;
+            color: #ffffff;
+            padding-left: 12px;
+            padding-top: 9px;
+            font-size: 24px;
+        }
+
+        .first .content-five p span {
+            font-weight: 700;
+            font-size: 28.8px;
+        }
+
+        /*第五根虚线的动画*/
+        .first.current .line-five-one {
+            transition: all 0.2s linear 2.6s;
+            width: 116.4px;
+        }
+
+        .first.current .line-five-two {
+            transition: all 0.2s linear 2.8s;
+            height: 157.2px;
+        }
+
+        .first.current .line-five-there {
+            transition: all 0.2s linear 3s;
+            width: 162px;
+        }
+
+        .first.current .line-five-four {
+            transition: all 0.2s linear 3.2s;
+            height: 57px;
+        }
+
+        .first.current .content-five {
+            transition: all 0.2s linear 3.4s;
+            opacity: 1;
+        }
+
+        .first .arrows_one {
+            position: absolute;
+            width: 3.3%;
+            height: 4.2%;
+            left: 10%;
+            top: 70%;
+        }
+
+        .first .arrows_two {
+            position: absolute;
+            width: 3.3%;
+            height: 4.2%;
+            left: 77%;
+            top: 61%;
+        }
+
+        .first .clouds_one {
+            position: absolute;
+            width: 2.8%;
+            height: 4.2%;
+            left: 88%;
+            top: 33%;
+        }
+
+        .first .clouds_two {
+            position: absolute;
+            width: 2.8%;
+            height: 4.2%;
+            left: 13%;
+            bottom: 5%;
+        }
+
+        .first .tests_one {
+            position: absolute;
+            width: 3%;
+            height: 5%;
+            left: 11%;
+            bottom: 58%;
+        }
+
+        .first .tests_two {
+            position: absolute;
+            width: 3%;
+            height: 5%;
+            left: 90%;
+            bottom: 10%;
+        }
+
+        .first .pluses_one {
+            position: absolute;
+            width: 2.5%;
+            height: 3.8%;
+            left: 90%;
+            bottom: 80%;
+        }
+
+        .first .pluses_two {
+            position: absolute;
+            width: 2.5%;
+            height: 3.8%;
+            left: 94%;
+            bottom: 55%;
+        }
+
+        .first .pluses_two {
+            position: absolute;
+            width: 2.5%;
+            height: 3.8%;
+            left: 20%;
+            bottom: 80%;
+        }
+
+        .first .pluses_there {
+            position: absolute;
+            width: 2.5%;
+            height: 3.8%;
+            left: 21%;
+            bottom: 43%;
+        }
+
+        .first .pluses_four {
+            position: absolute;
+            width: 2.5%;
+            height: 3.8%;
+            left: 94%;
+            bottom: 51%;
+        }
+
+        /*第二屏*/
+        .second {
+            background-color: #fff !important;
+            overflow: hidden;
+        }
+
+        .second .box {
+            position: relative;
+            width: 1200px;
+            height: 642px;
+            margin: 0 auto;
+        }
+
+        .second .phone {
+            position: absolute;
+            width: 202.8px;
+            height: 350.4px;
+            right: 797px;
+            top: 149px;
+            opacity: 0;
+        }
+
+        .second .phone_white {
+            position: absolute;
+            width: 134.4px;
+            height: 190.8px;
+            top: 218px;
+            right: 832px;
+            opacity: 0;
+        }
+
+        .second .phone_blue {
+            position: absolute;
+            width: 134.4px;
+            height: 190.8px;
+            top: 218px;
+            right: 832px;
+            opacity: 0;
+        }
+
+        .second .cloud {
+            position: absolute;
+            height: 448.8px;
+            width: 436.8px;
+            top: 41px;
+            left: 571px;
+        }
+
+        /*手机里面的动画部分*/
+        .second.current .phone {
+            transition: all 0.4s linear 0.4s;
+            opacity: 1;
+        }
+
+        .second.current .phone_white {
+            transition: all 0.4s linear 0.8s;
+            opacity: 1;
+        }
+
+        .second.current .phone_blue {
+            transition: all 0.4s linear 2s;
+            opacity: 1;
+        }
+
+        /*虚线部分*/
+        /*虚线部分*/
+        /*第一条虚线*/
+        .second .line_one {
+            position: absolute;
+            top: 287px;
+            right: 637px;
+            height: 9px;
+            width: 0;
+            border-top: 13px dotted #FFC94F;
+        }
+
+        .second.current .line_one {
+            transition: all 0.3s linear;
+            width: 144px;
+        }
+
+        /*第二条虚线*/
+        .second .line_two {
+            position: absolute;
+            top: 508px;
+            right: 883px;
+            height: 272.4px;
+            width: 13px;
+            border-left: 13px dotted #FFC94F;
+            z-index: 99;
+        }
+
+        /*.second.current .line_two {*/
+            /*transition: all 0.6s linear 2.4s;*/
+            /*height: 272.4px;*/
+        /*}*/
+
+        /*第三条虚线*/
+        .second .line_there {
+            position: absolute;
+            width: 567.6px;
+            height: 192px;
+            left: 289px;
+            top: 587px;
+        }
+
+        .second .cover {
+            position: absolute;
+            width: 567.6px;
+            height: 282px;
+            left: 288px;
+            bottom:-148px;
+            background-color: #FFFFFF;
+            /*background-color: orangered;*/
+            z-index: 99;
+        }
+
+        .second.current .cover {
+            animation: cover_heightone 0.8s 2.4s  forwards;
+        }
+        @keyframes cover_heightone {
+            0% {
+                height: 14%
+            }
+            100% {
+                height:0
+            }
+        }
+        .second .second_text {
+            position: absolute;
+            width: 388.8px;
+            height: 93.6px;
+            left: 598px;
+            top: 545px;
+            opacity: 0;
+            z-index: 120;
+        }
+
+        .second.current .second_text {
+            transition: all 0.4s linear 2.8s;
+            opacity: 1;
+        }
+
+        .second .second_title {
+            background: url(../images/p2_title.png) no-repeat center top;
+            height: 160px;
+            width: 100%;
+            z-index: 9;
+        }
+
+        .second .second_title {
+            /*position: absolute;*/
+            /*top: 0;*/
+            background: #3E506A;
+            text-align: center;
+            height: 194.4px;
+            width: 100%;
+            /*z-index: 9;*/
+            line-height: 162px;
+            color: #FFFFFF;
+            font-size: 34px;
+        }
+
+        .second .line_four {
+            position: absolute;
+            left: 291px;
+            top: 780px;
+            height: 0px;
+            border-left: 13px dotted #FFC94F;
+        }
+
+        .second .line_five {
+            position: absolute;
+            left: 842px;
+            top: 787px;
+            height: 0px;
+            width: 13px;
+            border-left: 13px dotted #50E3C2;
+        }
+
+        /*第三页响应式*/
+        .third {
+            overflow: hidden;
+            background-color: #F79C82 !important;
+        }
+
+        .third .box {
+            position: relative;
+            width: 1200px;
+            height: 631px;
+            margin: 0 auto;
+        }
+
+        .third .top_text {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: #3e506a;
+            color: #ffffff;
+            font-size: 36px;
+            text-align: center;
+            padding: 4.5% 0 4% 0;
+        }
+
+        /*图片部分*/
+        .third .main_left {
+            position: absolute;
+            left: 74px;
+            top: 113px;
+            width: 454.8px;
+            height: 483.6px;
+            opacity: 0;
+
+        }
+
+        .third .main_left_face {
+            position: absolute;
+            left: 133px;
+            top: 329px;
+            width: 146.4px;
+            height: 126px;
+            opacity: 0;
+        }
+
+        /*左侧图片部分动画*/
+        .third.current .main_left {
+            transition: all 0.4s linear 0.5s;
+            opacity: 1;
+
+        }
+
+        .third.current .main_left_face {
+            transition: all 0.4s linear 1.2s;
+            opacity: 1;
+        }
+
+        .third .main_right {
+            position: absolute;
+            right: 132px;
+            top: 113px;
+            width: 454.8px;
+            height: 483.6px;
+            opacity: 0;
+
+        }
+
+        .third .main_right_face {
+            position: absolute;
+            left: 666px;
+            top: 329px;
+            width: 146.4px;
+            height: 126px;
+            opacity: 0;
+        }
+
+        /*右侧图片动画*/
+        .third.current .main_right {
+            transition: all 0.4s linear 0.5s;
+            opacity: 1;
+
+        }
+
+        .third.current .main_right_face {
+            transition: all 0.4s linear 1.2s;
+            opacity: 1;
+        }
+
+        /*虚线部分*/
+        .third .line_one {
+            position: absolute;
+            left: 301px;
+            top: 0px;
+            height: 0;
+            border-left: 13px dotted #FFC94F;
+        }
+
+        .third .line_two {
+            position: absolute;
+            left: 835px;
+            top: 0px;
+            height: 0;
+            border-left: 13px dotted #50E3C2;
+        }
+
+        .third.current .line_one {
+            transition: all 0.5s linear;
+            height: 103px;
+        }
+
+        .third.current .line_two {
+            transition: all 0.5s linear;
+            height: 103px;
+        }
+
+        .third .main_title {
+            background: url(../images/p3_title.png) no-repeat center top;
+            height: 194.4px;
+            width: 100%;
+            z-index: 9;
+
+        }
+
+        .third .main_text {
+            position: absolute;
+            width: 313.2px;
+            height: 92.4px;
+            left: 422px;
+            top: 18px;
+            opacity: 0;
+        }
+
+        .third.current .main_text {
+            transition: all 0.4s linear 1.2s;
+            opacity: 1;
+        }
+
+        .third .line_there {
+            position: absolute;
+            bottom: -145px;
+            left: 290px;
+            width: 631.2px;
+            height: 171.6px;
+
+        }
+
+        .third .line_above {
+            position: absolute;
+            /*top: 605px;*/
+            bottom: -148px;
+            left: 244px;
+            width: 631.2px;
+            height: 171.6px;
+            background-color: #F79C82;
+            /*background-color: #50E3C2;*/
+        }
+
+        .third.current .line_above{
+            animation: cover_heightone 0.8s 2.4s  forwards;
+        }
+
+        @keyframes cover_heightone {
+            0%{height: 171.6px}
+            100%{height: 0}
+        }
+
+        .third .third_title {
+            background: #3E506A;
+            text-align: center;
+            height: 194.4px;
+            width: 100%;
+            /*z-index: 9;*/
+            line-height: 194.4px;
+            color: #FFFFFF;
+            font-size: 34px;
+        }
+
+        .third .line_four {
+            position: absolute;
+            top: 776px;
+            left: 630px;
+            height: 0px;
+            border-left: 13px dotted #FFC94F;
+        }
+
+        /*第四屏*/
+        .fourth {
+            overflow: auto;
+            background-color: #FFFFFF !important;
+        }
+
+        .fourth .box {
+            position: relative;
+            width: 1200px;
+            height: 641px;
+            margin: 0 auto;
+        }
+
+        /*.fourth .four_title{*/
+        /*background: url(../images/p4_title.png) no-repeat center top;*/
+        /*width:100%;*/
+        /*height:162px;*/
+        /*z-index: 99;*/
+        /*}*/
+        .fourth .four_text {
+            position: absolute;
+            top: 35px;
+            left: 100px;
+            width: 457.2px;
+            height: 96px;
+            opacity: 0;
+        }
+        .fourth .four_text p:nth-child(1){
+            text-align: center;
+            margin-top: 24px;
+        }
+         .fourth .four_text p:nth-child(2){
+             text-align: center;
+             margin-left: 0;
+        }
+        .fourth .clock {
+            position: absolute;
+            left: 578px;
+            top: 49px;
+            width: 117.6px;
+            height: 117.6px;
+        }
+
+        .fourth .line_one {
+            position: absolute;
+            height: 7%;
+            left: 631px;
+            top: 0px;
+            border-left: 13px dotted #FFC94F;
+        }
+
+        .fourth .line_two {
+            position: absolute;
+            height: 7%;
+            width: 9px;
+            left: 630px;
+            top: 169px;
+            border-left: 13px dotted #FFC94F;
+        }
+
+        .fourth .computer {
+            position: absolute;
+            left: 67px;
+            top: 222px;
+            width: 794.4px;
+            height: 500.4px;
+        }
+
+        .fourth .phone {
+            position: absolute;
+            height: 276px;
+            width: 160.8px;
+            left: 99px;
+            top: 158px;
+            opacity: 0;
+        }
+
+        .fourth .pie {
+            position: absolute;
+            height: 212.4px;
+            width: 214.8px;
+            left: 359px;
+            top: 305px;
+            opacity: 0;
+        }
+
+        .fourth .pie_sf {
+            position: absolute;
+            height: 28.8px;
+            width: 66px;
+            left: 380px;
+            top: 372px;
+            opacity: 0;
+        }
+
+        .fourth .pie_tf {
+            position: absolute;
+            height: 34.8px;
+            width: 70.8px;
+            left: 473px;
+            top: 349px;
+            opacity: 0;
+        }
+
+        .fourth .people {
+            position: absolute;
+            height: 297.6px;
+            width: 297.6px;
+            left: 864px;
+            top: 292px;
+        }
+
+        .fourth .people_face {
+            position: absolute;
+            height: 228px;
+            width: 268.8px;
+            left: 879px;
+            top: 323px;
+            opacity: 0;
+        }
+
+        .fourth .ok {
+            position: absolute;
+            bottom: 101px;
+            left: 564px;
+            width: 108px;
+            height: 30px;
+            opacity: 0;
+        }
+
+        .fourth .correct {
+            position: absolute;
+            height: 58.8px;
+            width: 58.8px;
+            top: 395px;
+            left: 237px;
+            opacity: 0;
+        }
+
+        .fourth .watch {
+            position: absolute;
+            /*height:9.5%;*/
+            /*width: 10.6%;*/
+            height: 64.8px;
+            line-height: 64.8px;
+            width: 146.4px;
+            text-align: center;
+            left: 740px;
+            top: 67px;
+            border: 3px solid #606689;
+            border-bottom: 2px solid #606689;
+            border-radius: 7px;
+            font-size: 40px;
+            color: #606689;
+        }
+
+        .fourth .watch span {
+            font-size: 40px;
+            color: #606689;
+        }
+
+        .fourth .arrow {
+            position: absolute;
+            width: 127.2px;
+            height: 60px;
+            left: 732px;
+            top: 417px;
+        }
+
+        /*第一步动画*/
+        .fourth.current .people_face {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .pie {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .people_face {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .phone {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .four_text {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .ok {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .pie_sf {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .pie_tf {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth.current .correct {
+            transition: all 0.5s linear 1.6s;
+            opacity: 1;
+        }
+
+        .fourth .fourth_title {
+            background: #3E506A;
+            text-align: center;
+            height: 194.4px;
+            width: 100%;
+            /*z-index: 9;*/
+            line-height: 194.4px;
+            color: #FFFFFF;
+            font-size: 34px;
+        }
+
+        /*第五页响应式*/
+        .fifth {
+            position: relative;
+            overflow: hidden;
+            background-color: #F79C82;
+        }
+
+        /*.fifth .fifth_title{*/
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*background: url(../images/p5_title.png) no-repeat  center top;*/
+        /*height:162px;*/
+        /*width: 100%;*/
+        /*}*/
+        .fifth .fifth_title {
+            background: #3E506A;
+            text-align: center;
+            height: 194.4px;
+            width: 100%;
+            /*z-index: 9;*/
+            line-height: 194.4px;
+            color: #FFFFFF;
+            font-size: 34px;
+        }
+
+        .content {
+            width: 100%;
+            height: 80%;
+            position: absolute;
+            top: 120px;
+        }
+
+        .content .bg {
+            position: absolute;
+            top: 26%;
+            left: 50%;
+            transform: translateX(-50%);
+
+        }
+
+        .content .bg img {
+            width: 672px;
+            height: 598.8px;
+        }
+
+        /*.content .carousel {*/
+        /*width: 490px;*/
+        /*height: 305px;*/
+        /*position: absolute;*/
+        /*top: 12%;*/
+        /*left: 50%;*/
+        /*transform: translateX(-50%);*/
+        /*}*/
+        .content .swiper-container {
+            width: 705.6px;
+            height: 439.2px;
+            position: absolute;
+            top: 12%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .one_left {
+            position: absolute;
+            top: 8%;
+            left: 7%;
+        }
+
+        .one_right {
+            position: absolute;
+            top: 8%;
+            left: 65%;
+        }
+
+        .two_app {
+            position: absolute;
+            top: 25%;
+            left: 12%;
+        }
+
+        .two_sdk {
+            position: absolute;
+            top: 28%;
+            left: 61%;
+        }
+
+        .two_hand {
+            position: absolute;
+            top: 53%;
+            left: 66%;
+        }
+
+        /*slide第二屏动画*/
+        .fifth.current .two_sdk {
+            transition: all 2s ease-in-out 0.4s;
+            transform: translateX(-253%);
+        }
+
+        .fifth.current .two_hand {
+            transition: all 2s ease-in-out 0.4s;
+            transform: translateX(-393%);
+        }
+
+        .fifth.current .two_point {
+            transition: all 2s ease-in-out 0.4s;
+            transform: translateX(-520%);
+        }
+
+        .three_phone {
+            position: absolute;
+            top: 16%;
+            left: 4%;
+            /*设置透明度*/
+            /*opacity: 0;*/
+        }
+
+        .four_txt {
+            width: 441.6px;
+            height: 148.8px;
+            border: 2px solid #606689;
+            border-radius: 5px;
+            background-color: #DFEDFF;
+            color: #606689;
+            font-size: 14px;
+            position: absolute;
+            left: 12%;
+            top: 28%;
+        }
+
+        .four_txt p {
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 6px;
+        }
+
+        /*埋点动画*/
+        .two_point {
+            width: 48px;
+            height: 48px;
+            background-color: #FFF;
+            border-radius: 20px;
+            position: absolute;
+            left: 66%;
+            top: 47%;
+        }
+
+        .two_point::after, .two_point::before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #FFF;
+            border-radius: 25px;
+        }
+
+        /*.three_one{*/
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*top: 0;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*background-color: #FFF;*/
+        /*border-radius: 25px;*/
+        /*animation: scale 1s infinite linear;*/
+        /*}*/
+        /*.three_two{*/
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*top: 0;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*background-color: #FFF;*/
+        /*border-radius: 25px;*/
+        /*animation: scale 1s 0.5s infinite linear;*/
+        /*}*/
+        .two_point::after {
+            animation: scale 1s infinite linear;
+        }
+
+        .two_point::before {
+            animation: scale 1s 0.5s infinite linear;
+        }
+
+        @keyframes scale {
+            0% {
+                /*transform: scale(1);
+                opacity: 1;*/
+            }
+            /**/
+            100% {
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+
+        .three_one {
+            width: 36px;
+            height: 36px;
+            border-radius: 15px;
+            position: absolute;
+            left: 42.4%;
+            top: 26%;
+            /*设置透明度*/
+            opacity: 0;
+        }
+
+        .three_two {
+            width: 36px;
+            height: 36px;
+            border-radius: 15px;
+            position: absolute;
+            left: 59%;
+            top: 56%;
+            /*设置透明度*/
+            opacity: 0;
+        }
+
+        /*slide第三屏动画*/
+        .fifth.current .three_one {
+            transition: all 0.4s linear 4.4s;
+            opacity: 1;
+        }
+
+        .fifth.current .three_two {
+            transition: all 0.4s linear 4.4s;
+            opacity: 1;
+        }
+
+        .fifth_txt{
+            top:61px;
+            left:43.4%;
+        }
+
+        /*.fifth.current .three_phone{*/
+        /*transition:  all 1s linear 10s;*/
+        /*opacity: 1;*/
+        /*}*/
+        /*动画*/
+        /*.animate.current .three_phone {*/
+        /*transition: all 0.2s ease-in-out;*/
+        /*opacity: 1;*/
+        /*}*/
+        /*.animate.current .three_one {*/
+        /*transition: all 0.4s ease-in-out;*/
+        /*opacity: 1;*/
+        /*}*/
+        /*.animate.current .three_two {*/
+        /*transition: all 0.6s ease-in-out;*/
+        /*opacity: 1;*/
+        /*}*/
+        .fp-slides {
+            top: 16% !important;
+        }
+
+        /*第六页的大屏幕显示器*/
+        .sixth{
+            position: relative;
+            background-color: #4EB4FF;
+            overflow: auto !important;
+        }
+
+        .sixth .box{
+            position: relative;
+            width:1152px;
+            /*height:700px;*/
+            height: 777px;
+            margin: 0 auto;
+        }
+
+
+        .sixth .sixth_img{
+            position: absolute;
+            left: 0px;
+            top: 209px;
+            width: 489.6px;
+            height: 362.4px;
+        }
+
+        .sixth .sixth_form {
+            position: absolute;
+            width: 520.8px;
+            height: 556.8px;
+            right:0px;
+            top: 80px;
+            background-color: #C3E7FF;
+            border: 8px solid #98D3FF;
+            border-radius: 14px;
+
+        }
+
+
+        .sixth .sixth_form h3{
+            font-size: 22px;
+            font-weight: 700;
+            color:#356C94;
+            margin-top: 8%;
+            margin-left: 37%;
+        }
+
+        .sixth input{
+            height: 11%;
+            width:83%;
+            margin-top: 5%;
+            margin-left:7%;
+            padding-left:3%;
+            font-size: 19.2px;
+            color:#89A9C0;
+        }
+        .sixth input:hover{
+            border-left: 1px solid #82A4BD;
+            border-right: 1px solid #82A4BD;
+            border-top: 1px solid #82A4BD;
+        }
+        .sixth input:nth-last-child{
+            margin-bottom: 10%;
+        }
+
+        /*.sixth .login{*/
+            /*display: block;*/
+            /*color:#ffffff;*/
+            /*background-color: #F5A623;*/
+            /*margin-top: 6%;*/
+            /*margin-left: 20%;*/
+            /*margin-right: 20%;*/
+            /*padding:4% 10%;*/
+            /*border-radius: 36px;*/
+            /*font-size: 21.6px;*/
+            /*text-align: center;*/
+            /*font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+        /*}*/
+
+        /*.sixth .login:hover{*/
+            /*background-color: #FFFFFF;*/
+            /*color:#F5A623;*/
+        /*}*/
+
+
+        .sixth .login{
+            display: block;
+            margin-top: 6%;
+            margin-left: 20%;
+            margin-right: 20%;
+            padding:4% 10%;
+            border-radius: 36px;
+        }
+
+        .sixth .login  .submit{
+            position: absolute;
+            left: 111px;
+            top: 451px;
+            width: 292px;
+            height: 74px;
+            opacity: 1;
+        }
+
+        .sixth .login  .send{
+            position: absolute;
+            left: 111px;
+            top: 451px;
+            width: 292px;
+            height: 74px;
+            opacity: 0;
+        }
+        .sixth .login  .jingguo{
+            position: absolute;
+            left: 97px;
+            top: 437px;
+            width: 321px;
+            height: 103px;
+            opacity: 0;
+        }
+
+
+        .sixth .login  .disable{
+            position: absolute;
+            left: 111px;
+            top: 451px;
+            width: 292px;
+            height: 74px;
+            opacity: 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .sixth .sixth_footer{
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 27.2%;
+            background-color: #FFFFFF;
+            /*padding-left: 15%;*/
+        }
+        dl{
+            float: left;
+            font-size: 16px;
+            font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+        dt>a{
+            font-weight: 700;
+            color:#7A7A7A;
+        }
+        dd>a{
+            height:15px;
+            color:#898989;
+        }
+        .sixth dl a{
+            display: block;
+            height:30px;
+
+        }
+
+        .sixth dl:not(.product) dd a:hover{
+            text-decoration: underline;
+        }
+        .sixth_line{
+            position: absolute;
+            right:262px;
+            top:32px;
+            width:1px;
+            height: 112px;
+            border-left: 1px solid #D8D8D8;
+
+        }
+
+
+
+        .sixth .logo_v2{
+            position: absolute;
+            left:0;
+            top:32px;
+            width:86.4px;
+            height:86.4px;
+        }
+        .product{
+            position: absolute;
+            left:179px;
+            top:32px;
+        }
+        .developer{
+            position: absolute;
+            left:460px;
+            top: 32px;
+        }
+        .partner{
+            position:absolute;
+            left:670px;
+            /*top: 32px;*/
+            top: 32px;
+        }
+        .center{
+            position: absolute;
+            right:0;
+            top:32px;
+        }
+        .last{
+            /*background: url("../images/p6_footer.png") no-repeat center top;*/
+            /*background-size: 100%,52px;*/
+            width: 100%;
+            height: 52px;
+            background-color:#F5F5F5;
+        }
+
+
+        .last_box{
+            position: relative;
+            width: 950px;
+            height: 54px;
+            line-height: 54px;
+            margin: 0 auto;
+            /*background-color: red;*/
+        }
+
+        .last_box img{
+            position: absolute;
+            left: -8px;
+            top:13px;
+            width:26.4px;
+            height:26.4px;
+            display: inline-block;
+        }
+        .last_box p:nth-child(2){
+            position: absolute;
+            left:23px;
+            display: inline-block;
+            color:#7D7D7D;
+        }
+
+        .last_box p:nth-child(3){
+            position: absolute;
+            left:283px;
+            display: inline-block;
+            color:#7D7D7D;
+        }
+
+        .last_box p:nth-child(4){
+            position: absolute;
+            left:718px;
+            display: inline-block;
+            color:#7D7D7D;
+        }
+
+        .smile{
+            position: absolute;
+            left:152px;
+            top:473px;
+            height: 20px;
+            width:20px;
+            opacity: 0;
+        }
+        .sixth .icone{
+            position: absolute;
+            left:701px;
+            top:20px;
+            height: 14px;
+            width: 14px;
+
+        }
+
+        .footer_box{
+            position: relative;
+            margin: 0 auto;
+            height: 219.6px;
+            width: 1102.8px;
+            margin: 0 auto;
+            /*background-color: pink;*/
+        }
+
+
+        .content .swiper-container {
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 164px;
+            width: 527px;
+            height:366px;
+        }
+        /*SDK弹框*/
+        .sixth .picture{
+            position: absolute;
+            width: 153px;
+            height: 78px;
+            left:541px;
+            top:63px;
+            background-color: #EFF9FF;
+            border-radius: 8px;
+            display: none;
+        }
+        /*三角*/
+        .sixth  .triangle{
+            position: absolute;
+            width: 14px;
+            height:14px;
+            transform: rotateZ(-45deg);
+            background-color: #EFF9FF;
+            left: -8px;
+            top:32px;
+        }
+        /*苹果图标*/
+        .sixth  .apple{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            z-index: 9;
+            left:12px;
+            top:13px;
+            opacity: 1;
+        }
+
+        /*苹果经过图标*/
+        .sixth .apple-light{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            z-index: 9;
+            left:12px;
+            top:13px;
+            opacity: 0;
+        }
+        /*苹果文字*/
+        .sixth .iossdk{
+            position: absolute;
+            height:20px;
+            width:63px;
+            z-index: 9;
+            left: 44px;
+            top: 14px;
+
+        }
+        .sixth .iossdk a{
+            color:#43769C;
+            font-size: 16px;
+        }
+
+
+
+
+
+
+        .sixth .android{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            z-index: 9;
+            left:12px;
+            top:45px;
+            opacity: 1;
+        }
+
+        /*安卓经过图标*/
+        .sixth .android-light{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            z-index: 9;
+            left:12px;
+            top:45px;
+            opacity: 0;
+
+        }
+
+        /*安卓文字*/
+        .sixth .androidsdk{
+            position: absolute;
+            height: 20px;
+            width: 97px;
+            z-index: 9;
+            left:44px;
+            top:47px;
+
+
+        }
+
+        .sixth .androidsdk a{
+            color:#43769C;
+            font-size: 16px;
+        }
+
+
+        #SDK{
+            width: 100px;
+        }
+
+
+    }

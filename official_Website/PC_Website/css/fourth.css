@@ -1,0 +1,217 @@
+.fourth{
+    overflow: auto;
+    background-color: #FFFFFF !important;
+}
+.fourth .box{
+    position: relative;
+    width:1000px;
+    height:641px;
+    margin: 0 auto;
+}
+/*.fourth .four_title{*/
+    /*background: url(../images/p4_title.png) no-repeat center top;*/
+    /*width:100%;*/
+    /*height:162px;*/
+    /*z-index: 99;*/
+/*}*/
+
+
+
+.fourth .four_text{
+    position: absolute;
+    top:35px;
+    left:120px;
+    width: 381px;
+    height: 80px;
+    border:  2px solid  #606689;
+    border-radius: 8px;
+    /*opacity: 0;*/
+}
+
+.fourth .four_text p:nth-child(1){
+    font-size: 16px;
+    color: #57677E;
+    margin-left: 18px;
+    margin-top:18px;
+
+}
+
+.fourth .four_text p:nth-child(2){
+    font-size: 16px;
+    color: #57677E;
+    margin-left: 96px;
+    margin-top: 7px;
+}
+.fourth .clock{
+    position: absolute;
+    left: 545px;
+    top:49px;
+    width: 98px;
+    height: 98px;
+}
+
+.fourth .line_one{
+    position: absolute;
+    height: 5.8%;
+    width: 9px;
+    left:591px;
+    top:0px;
+    border-left:9px dotted  #FFC94F;
+}
+
+.fourth .line_two{
+    position: absolute;
+    height: 5.8%;
+    width: 9px;
+    left:590px;
+    top:148px;
+    border-left:9px dotted  #FFC94F;
+}
+.fourth .computer{
+    position: absolute;
+    left:110px;
+    top:186px;
+    width: 662px;
+    height: 417px;
+}
+
+.fourth .phone{
+    position:absolute;
+    height:230px;
+    width:134px;
+    left:143px;
+    top:135px;
+    opacity: 0;
+}
+.fourth .pie{
+    position: absolute;
+    height:177px;
+    width: 179px;
+    left:359px;
+    top: 260px;
+    opacity: 0;
+}
+.fourth .pie_sf{
+    position: absolute;
+    height:24px;
+    width: 55px;
+    left:380px;
+    top: 322px;
+    opacity: 0;
+}
+.fourth .pie_tf{
+    position: absolute;
+    height:29px;
+    width: 59px;
+    left:449px;
+    top: 301px;
+    opacity: 0;
+}
+.fourth .people{
+    position: absolute;
+    height:248px;
+    width: 248px;
+    left:775px;
+    top: 251px;
+}
+
+.fourth .people_face{
+    position: absolute;
+    height:190px;
+    width: 224px;
+    left:786px;
+    top: 277px;
+    opacity: 0;
+}
+.fourth .ok{
+    position: absolute;
+    bottom: 178px;
+    left: 516px;
+    width: 90px;
+    height:25px;
+    opacity: 0;
+}
+.fourth .correct{
+    position: absolute;
+    height:49px;
+    width:49px;
+    top: 339px;
+    left:248px;
+    opacity: 0;
+}
+.fourth .watch{
+    position: absolute;
+    /*height:9.5%;*/
+    /*width: 10.6%;*/
+    height: 54px;
+    line-height:54px;
+    width:122px;
+    text-align: center;
+    left:684px;
+    top:67px;
+    border: 3px  solid #606689;
+    border-bottom: 2px  solid #606689;
+    border-radius: 7px;
+    font-size: 38px;
+    color:#606689;
+}
+.fourth .watch span{
+    font-size: 38px;
+    color:#606689;
+}
+.fourth .arrow{
+    position: absolute;
+    width: 106px;
+    height:50px;
+    left:664px;
+    top:359px;
+}
+
+/*第一步动画*/
+.fourth.current .people_face{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth.current .pie{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth.current .people_face{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth.current .phone{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+
+.fourth.current .four_text{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth.current .ok{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth.current .pie_sf{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth.current .pie_tf{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth.current .correct{
+    transition:  all 0.5s linear 1.6s;
+    opacity: 1;
+}
+.fourth .fourth_title{
+    background: #3E506A;
+    text-align: center;
+    height: 162px;
+    width: 100%;
+    /*z-index: 9;*/
+    line-height: 162px;
+    color:#FFFFFF;
+    font-size: 34px;
+}

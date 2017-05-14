@@ -1,0 +1,1604 @@
+
+/*第一页开始*/
+.section{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/*点击弹框*/
+#good{
+    position: absolute;
+    top:1.3866rem;
+    left:0rem;
+    width:100%;
+    height:5.8266rem;
+    background-color: rgba(240,249,255,0.8);
+    /*background-color: red;*/
+    z-index: 9;
+    padding-top: 0.4rem;
+    display: none;
+}
+
+#good li{
+    height:1.12rem;
+    width: 100%;
+    text-align: center;
+}
+
+#good li a{
+   position: absolute;
+   display: block;
+   color:#1E1F21;
+   width:2.72rem;
+   height:1rem;
+   line-height: 1rem;
+   left:50%;
+   transform: translateX(-50%);
+
+   /*margin-left: 3.6rem;*/
+
+}
+.first_top {
+   color:#FFFFFF !important;
+   border-radius: 1rem;
+   background-color: #64BEFF;
+}
+.top_nav{
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height:1.4rem;
+    z-index: 99;
+    background-color: #4EB4FF;
+}
+.logo{
+   position: absolute;
+    width:2.66rem;
+    heigt:0.7rem;
+    left:0.666rem;
+    top:0.2533rem;
+}
+
+ .nav{
+    position:absolute;
+    top: 0.413rem;
+    right: 0.65rem;
+    width: 0.69rem;
+    height:0.66667rem;
+
+}
+ .first .first_box{
+     position: relative;
+     width:9.08rem;
+     height:17.82rem;
+     margin: -4rem  auto;
+     bottom: 0;
+ }
+
+.first .first_computer{
+    position: absolute;
+    bottom: 0;
+    width:8.08rem;
+    height:4.77rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index:109;
+}
+
+.first .line_one_one{
+    position: absolute;
+    bottom: 4.77rem;
+    left:0.4rem;
+    height: 8.3rem;
+}
+.first .line_one_two{
+    position: absolute;
+    left:1.86rem;
+    width:1.4rem;
+    bottom: 5.24rem;
+}
+
+.first .one_one_cover{
+  position: absolute;
+  left:0.4rem;
+  top:5.6rem;
+  width:1rem;
+  height:7.6rem;
+  background-color: #4EB4FF;
+
+}
+.first.current .one_one_cover{
+    animation: one_one_cover 0.8s  linear forwards;
+}
+@keyframes one_one_cover {
+    0% {
+        height: 100%;
+    }
+
+    100% {
+        height:0;
+    }
+}
+.first .one_two_cover{
+    position: absolute;
+    right:6.2rem;
+    bottom: 12rem;
+    width:1.9rem;
+    height:0.2rem;
+    background-color: #4EB4FF;
+
+}
+
+.first.current .one_two_cover{
+    animation: one_two_cover 0.8s 0.1s linear forwards;
+}
+@keyframes one_two_cover {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width:0;
+    }
+}
+.first .one_there_cover{
+    position: absolute;
+    right:6rem;
+    top:5rem;
+    width:0.3rem;
+    height:1rem;
+    background-color: #4EB4FF;
+    /*background-color: red;*/
+}
+
+.first.current .one_there_cover{
+    animation: one_there_cover 0.4s 0.8s  linear forwards;
+}
+@keyframes one_there_cover {
+    0% {
+        height: 1rem;
+    }
+    100% {
+        height:0;
+    }
+}
+
+.first .first_one_fast{
+    position: absolute;
+    height:0.7733rem;
+    width:3.78rem;
+    bottom:12.74rem;
+    left: 2.5rem;
+    z-index: 999;
+    opacity: 0;
+}
+/*第一条虚线动画*/
+.first.current .first_one_fast{
+    transition:  all 0.4s linear 1.2s;
+    opacity: 1;
+}
+
+.first .line_two{
+    position: absolute;
+    left:1.7rem;
+    bottom: 4.77rem;
+    height:4.77rem;
+}
+
+.first .line_two_cover{
+    position: absolute;
+    left:1.7rem;
+    top:8rem;
+    height:5.4rem;
+    width:1.2rem;
+    background-color: #4EB4FF;
+    /*background-color: red;*/
+    z-index: 9;
+
+}
+.first.current .line_two_cover{
+    animation: line_two_cover 0.8s 1.2s  linear forwards;
+}
+@keyframes line_two_cover {
+    0% {
+        height: 100%;
+    }
+
+    100% {
+        height:0;
+    }
+}
+
+.first .first_two_keep {
+    position: absolute;
+    left:2.9rem;
+    bottom: 9.1rem;
+    width:4.98rem;
+    height: 0.8533rem;
+    opacity: 0;
+    z-index: 999;
+}
+/*!*第二条虚线动画*!*/
+/*.first.current .line_two_one{*/
+    /*transition:  all 0.4s linear 1.6s;*/
+    /*height:4.77rem;*/
+/*}*/
+.first.current .first_two_keep{
+    transition:  all 0.4s linear 2.2s;
+    opacity: 1;
+}
+
+.first .line_there_one{
+    position: absolute;
+    left:2.5rem;
+    bottom: 4.77rem;
+    height:2.72rem;
+    z-index: 19;
+}
+.first .there_cover{
+    position: absolute;
+    left:2.5rem;
+    top:9.96rem;
+    height: 3.1rem;
+    width:0.2rem;
+    background-color: #4EB4FF;
+    z-index: 9999999;
+}
+.first.current .there_cover{
+    animation: there_cover 0.3s 2.7s  linear forwards;
+}
+@keyframes there_cover {
+    0% {
+        height: 3.1rem;
+    }
+
+    100% {
+        height:0;
+    }
+}
+
+
+.first .line_there_update{
+    position: absolute;
+    left: 2.1rem;
+    bottom: 7.49rem;
+    width:4.826rem;
+    height: 0.7467rem;
+    opacity: 0;
+    z-index: 999;
+}
+/*第三条虚线动画*/
+.first.current .line_there_update{
+    transition:  all 0.4s linear 3.2s;
+    opacity: 1;
+}
+
+
+
+.first .line_four_one{
+    position: absolute;
+    left:3.3rem;
+    bottom: 4.77rem;
+    height: 1.4rem;
+}
+
+.first .line_four_cover{
+    position: absolute;
+    left:3.2rem;
+    top:11.4rem;
+    width:0.3rem;
+    height:1.7rem;
+    background-color: #4EB4FF;
+
+}
+.first.current .line_four_cover{
+    animation: four_cover 0.3s 3.6s  linear forwards;
+}
+
+@keyframes four_cover {
+    0% {
+        height: 1.7rem;
+    }
+    100% {
+        height:0;
+    }
+}
+.first .first_four_minute{
+    position: absolute;
+    left:2.9rem;
+    bottom:6.1rem;
+    width:5.226rem;
+    height: 0.853rem;
+    opacity: 0;
+    z-index: 999;
+}
+/*第四条虚线动画*/
+.first.current .first_four_minute{
+    transition:  all 0.4s linear 4s;
+    opacity: 1;
+}
+/*第五条*/
+.first .line_five_one{
+    position: absolute;
+    left:4.68rem;
+    bottom: 4.77rem;
+    height:1rem;
+    width:2rem;
+}
+.first .five_one_cover{
+    position: absolute;
+    right:4.2rem;
+    top: 12.2rem;
+    height: 0.9rem;
+    width: 0.3rem;
+    background-color: #4EB4FF;
+    /*background-color: red;*/
+
+}
+.first.current .five_one_cover{
+    animation: five_one_cover 0.3s 5s  linear forwards;
+}
+@keyframes five_one_cover {
+
+    0% {
+        height: 0.9rem;
+    }
+    100% {
+        height:0;
+    }
+}
+
+.first .line_five_two{
+    position:absolute;
+    left:6.7rem;
+    bottom:4.62rem;
+    width:1.777rem;
+}
+.first .five_two_cover{
+    position: absolute;
+    right:0.5rem;
+    top: 11.96rem;
+    height: 0.3rem;
+    width: 4rem;
+    background-color: #4EB4FF;
+
+}
+.first.current .five_two_cover{
+    animation: five_two_cover 0.3s 5.3s  linear forwards;
+}
+@keyframes five_two_cover {
+    0% {
+        width: 4rem;
+    }
+    100% {
+        width:0;
+    }
+}
+.first .line_five_there{
+    position: absolute;
+    left:6.02rem;
+    bottom: 8.4rem;
+    height:3.7rem;
+}
+.first .five_there_cover{
+     position: absolute;
+     left:8.2rem;
+     top: 6.7rem;
+     height: 5.4rem;
+     width: 0.3rem;
+     background-color: #4EB4FF;
+    /*background-color: red;*/
+ }
+.first.current .five_there_cover{
+    animation: four_cover 0.6s 5.6s  linear forwards;
+}
+@keyframes four_cover {
+    0% {
+        height: 5.4rem;
+    }
+    100% {
+        height:0;
+    }
+}
+.first .five_four_cover{
+    position: absolute;
+    left:6rem;
+    top: 6.5rem;
+    height: 0.5rem;
+    width: 2.6rem;
+    background-color:#4EB4FF ;
+    /*background-color: red;*/
+}
+.first.current .five_four_cover{
+    animation: five_four_cover 0.2s 6.2s  linear forwards;
+}
+@keyframes five_four_cover {
+    0% {
+        width: 2.6rem;
+    }
+    100% {
+        width:0;
+    }
+}
+
+.first .line_five_collection{
+    position: absolute;
+    left:2rem;
+    bottom: 10.7rem;
+    width:3.92rem;
+    height: 0.81333rem;
+    opacity: 0;
+    z-index: 999;
+}
+
+/*!*第五条虚线动画*!*/
+.first.current .line_five_collection{
+    transition:  all 0.4s linear 6.6s;
+    opacity: 1;
+}
+
+/*第二页开始*/
+.second{
+  overflow: hidden;
+  position: relative;
+
+}
+.second_box{
+    position: relative;
+    height:15.6666rem;
+    width:7.493333rem;
+    margin: -1.2rem auto;
+    top:2.16rem;
+
+}
+.second .title{
+    position: absolute;
+    top:0;
+    left: 0;
+    height:2.16rem;
+    width: 100%;
+    background-color: #3E506A;
+    z-index: 999;
+}
+.second .title p:nth-child(1){
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0.5066rem;
+    font-size: 0.4rem;
+}
+.second .title p:nth-child(2){
+    color: #ffffff;
+    /*font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+    text-align: center;
+    margin-top: 0.226666rem;
+    font-size: 0.4rem;
+}
+.second .second_cloud{
+    position: absolute;
+    top:1.4666rem;
+    left:1.02666rem;
+    width: 4.98666rem;
+    height: 4.85333rem;
+}
+
+.second .second_line_one{
+    position: absolute;
+    right:6.5333rem;
+    top:3.69333rem;
+    width:0.9rem;
+}
+.second .second_line_one_cover{
+    position: absolute;
+    left:0rem;
+    top:3.69333rem;
+    width:1rem;
+    height:0.3rem;
+    background-color: #FFFFFF;
+    /*background-color: red;*/
+}
+.second.current .second_line_one_cover{
+    animation: second_one_cover 0.1s  linear forwards;
+}
+
+@keyframes second_one_cover {
+    0% {
+        width: 0.9rem;
+    }
+    100% {
+        width:0;
+    }
+}
+.second .second_line_two{
+    position: absolute;
+    top:6.4rem;
+    left:0.06rem;
+    width:2.2rem;
+}
+
+.second_line_two_cover{
+    position: absolute;
+    left:0rem;
+    bottom:6.6rem;
+    width:0.3rem;
+    height:5.3rem;
+    background-color: #FFFFFF;
+    /*background-color: pink;*/
+}
+.second.current .second_line_two_cover{
+    animation: second_two_cover 0.6s  0.1s linear forwards;
+}
+@keyframes second_two_cover {
+    0% {
+        height: 5.3rem;
+    }
+    100% {
+        height:0;
+    }
+}
+.second_line_there_cover{
+    position: absolute;
+    right:5.3rem;
+    top:8.8rem;
+    width:2.2rem;
+    height:0.3rem;
+    background-color:#FFFFFF;
+}
+.second.current .second_line_there_cover{
+    animation: second_there_cover 0.2s 0.6s linear forwards;
+}
+@keyframes second_there_cover {
+    0% {
+        width: 2.2rem;
+    }
+    100% {
+        width:0;
+    }
+}
+.second .second_phone{
+    position: absolute;
+    left:2.56rem;
+    width:2.25333rem ;
+    height:3.89333rem;
+    top:7.05333rem;
+    opacity: 0;
+}
+.second .second_ok{
+    position: absolute;
+    left:2.9rem;
+    top:7.84rem;
+    width:1.49333rem;
+    height:2.12rem;
+    opacity: 0;
+}
+.second .second_line_four{
+    position: absolute;
+    height:0rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top:11rem;
+
+}
+.second .second_line_five{
+    position: absolute;
+    height:0rem;
+    top:13.2rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-left:5px dotted #FFC94F;
+}
+
+.second  .second_text{
+    position: absolute;
+    bottom:2.6rem;
+    /*left:4.76rem;*/
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height:1.2rem;
+    width:7rem;
+    background-color: #F3FBFF;
+    border: 2px solid #737897;
+    border-radius: 6px;
+    z-index: 2;
+    opacity: 0;
+}
+.second .second_text p{
+    font-size: 0.3rem;
+    text-align: center;
+
+}
+.second .second_text p:nth-child(1){
+    margin-top: 0.2rem;
+    text-align: center;
+    /*margin-bottom: 0.3rem;*/
+}
+.second .second_text p:nth-child(2){
+    text-align: center;
+    margin-bottom: 0.2933rem;
+}
+
+
+.second.current .second_phone{
+    transition:  all 0.4s linear 1.2s;
+    opacity: 1;
+}
+.second.current .second_ok{
+    transition:  all 0.4s linear 1.6s;
+    opacity: 1;
+}
+.second.current .second_line_four{
+    transition:  all 0.4s linear 2s;
+    height:0.92rem;
+}
+.second.current  .second_text{
+    transition:  all 0.4s linear 2.4s;
+    opacity: 1;
+}
+.second.current .second_line_five{
+    transition:  all 0.4s linear 2.8s;
+    height:1.92rem;
+}
+
+
+/*第三页开始*/
+.third{
+    overflow: hidden;
+    position: relative;
+}
+
+.third .third_title{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:2.1333rem;
+    background-color: #3E506A;
+    z-index:999;
+}
+.third .third_title p{
+    text-align: center;
+    color:#ffffff;
+    /*height: 5.3333rem;*/
+    /*line-height: 5.33333rem;*/
+    margin-top: 0.76rem;
+    font-size: 0.4rem;
+}
+.third .third_box{
+    position: relative;
+    height:15.65rem;
+    width:8.6133rem;
+    margin: -0.5rem auto;
+    top:2.16rem;
+
+}
+.third .third_line_one{
+    position: absolute;
+    left:2.5rem;
+    z-index: 1;
+    top:0rem;
+    height:1.44rem;
+}
+.third .third_one_cover{
+    position: absolute;
+    height: 1.5rem;
+    width:0.5rem;
+    left:3.6rem;
+    bottom: 14.2rem;
+    background-color: #F79C82;
+    z-index: 9;
+}
+.third.current .third_one_cover{
+    animation: third_one_cover 0.2s  linear forwards;
+}
+@keyframes third_one_cover {
+    0% {
+        height:1.5rem;
+    }
+    100% {
+        height:0;
+    }
+}
+
+.third .third_line_two{
+    position: absolute;
+    right:2.5rem;
+    top:0rem;
+    height:1.5rem;
+    width:2.4rem;
+}
+.third .third_two_cover{
+    position: absolute;
+    height: 0.5rem;
+    width:3.2rem;
+    left:0.8rem;
+    bottom: 14.1rem;
+    background-color: #F79C82;
+    z-index: 9;
+}
+.third.current .third_two_cover{
+    animation: third_two_cover 0.4s 0.2s  linear forwards;
+}
+@keyframes third_two_cover {
+    0% {
+        width:3.2rem;
+    }
+    100% {
+        width:0;
+    }
+}
+
+.third .third_line_there{
+    position: absolute;
+    top:1.2rem;
+    left:0.84rem;
+    height:1.44rem;
+}
+.third .third_there_cover{
+    position: absolute;
+    height: 0.5rem;
+    width:3.2rem;
+    right:1.5rem;
+    bottom: 14.1rem;
+    z-index: 9;
+    background-color: #F79C82;
+}
+.third.current .third_there_cover{
+    animation: third_there_cover 0.4s 0.2s  linear forwards;
+}
+@keyframes third_there_cover {
+    0% {
+        width:3.2rem;
+    }
+    100% {
+        width:0;
+    }
+}
+.third .third_line_four{
+    position: absolute;
+    top:1.3rem;
+    left:6.1rem;
+    width:1.2rem;
+    top:-0.15rem;
+}
+
+.third .third_four_cover{
+    position: absolute;
+    height: 1.8rem;
+    width:0.5rem;
+    left:0.6rem;
+    bottom: 12.8rem;
+    background-color: #F79C82;
+    z-index: 9;
+}
+.third.current .third_four_cover{
+    animation: third_four_cover 0.2s 0.6s linear forwards;
+}
+@keyframes third_four_cover {
+    0% {
+        height:1.5rem;
+    }
+    100% {
+        height:0;
+    }
+}
+
+.third .third_five_cover{
+    position: absolute;
+    height: 7.8rem;
+    width:0.5rem;
+    left:7rem;
+    bottom: 6.8rem;
+    background-color: #F79C82;
+    z-index: 9;
+}
+.third.current .third_five_cover{
+    animation: third_five_cover 0.4s 0.6s linear forwards;
+}
+@keyframes third_five_cover {
+    0% {
+        height:7.8rem;
+    }
+    100% {
+        height:0;
+    }
+}
+.third .third_six_cover{
+    position: absolute;
+    height: 6.8rem;
+    width:0.5rem;
+    left:0.6rem;
+    bottom: 4.8rem;
+    background-color: #F79C82;
+    z-index: 9;
+}
+.third.current .third_six_cover{
+    animation: third_six_cover 0.4s 1s linear forwards;
+}
+@keyframes third_six_cover {
+    0% {
+        height:6.8rem;
+    }
+    100% {
+        height:0;
+    }
+}
+
+.third .third_seven_cover{
+    position: absolute;
+    height: 0.5rem;
+    width:3.2rem;
+    right:4.5rem;
+    bottom: 4.7rem;
+    z-index: 9;
+    background-color: #F79C82;
+    /*background-color: red;*/
+
+}
+.third.current .third_seven_cover{
+    animation: third_seven_cover 0.4s 1.4s  linear forwards;
+}
+@keyframes third_seven_cover {
+    0% {
+        width:3.2rem;
+    }
+    100% {
+        width:0;
+    }
+}
+
+.third .third_eight_cover{
+    position: absolute;
+    height: 1.5rem;
+    width:3.2rem;
+    left:4.2rem;
+    bottom: 4.7rem;
+    z-index: 9;
+    background-color: #F79C82;
+    /*background-color: red;*/
+}
+.third.current .third_eight_cover{
+    animation: third_eight_cover 0.4s 1.4s  linear forwards;
+}
+@keyframes third_eight_cover {
+    0% {
+        width:3.2rem;
+    }
+    100% {
+        width:0;
+    }
+}
+
+
+.third .third_nine_cover{
+    position: absolute;
+    height: 5rem;
+    width:0.5rem;
+    right:4.3rem;
+    bottom: 0rem;
+    z-index: 9;
+    background-color: #F79C82;
+    /*background-color: red;*/
+
+}
+.third.current .third_nine_cover{
+    animation: third_nine_cover 0.4s 1.8s  linear forwards;
+}
+@keyframes third_nine_cover {
+    0% {
+        height:5rem;
+    }
+    100% {
+        height:0;
+    }
+}
+
+.third .third_line_five{
+    position: absolute;
+    top:4.1rem;
+    left:0.8rem;
+    height:7rem;
+}
+.third .third_phone{
+    position: absolute;
+    left:0.2rem;
+    top: 1.92rem;
+    width: 4.04rem;
+    height:4.29rem;
+    opacity: 0;
+    z-index: 9;
+}
+.third .third_face{
+    position: absolute;
+    left:0.73rem;
+    top:3.82rem;
+    width: 1.3012rem;
+    height:1.12rem;
+    opacity: 0;
+    z-index:9;
+}
+.third .third_B{
+    position: absolute;
+    right:0.2rem;
+    height:4.29rem;
+    width:4.04rem;
+    top: 5.8rem;
+    opacity: 0;
+    z-index: 9;
+}
+.third .third_b_face{
+    position: absolute;
+    right:2.46rem;
+    top:7.7rem;
+    width:1.3012rem;
+    height:1.12rem;
+    opacity: 0;
+    z-index: 9;
+}
+.third .third_line_seven{
+    position: absolute;
+    left:2.33rem;
+    top:10.6rem;
+    width:1.9rem;
+
+}
+
+.third .third_line_eight{
+    position: absolute;
+    left:5.6rem;
+    top:9.9rem;
+    height:0.9rem;
+}
+
+.third .third_line_nine{
+    position: absolute;
+    left:4.1rem;
+    top:10.6rem;
+    height:0.9rem;
+
+}
+
+.third .third_line_ten{
+
+     position: absolute;
+    right:1.5733rem;
+    top:10rem;
+    height:0rem;
+    border-left:5px dotted #50E3C2;
+}
+.third .third_line_eleven{
+    position: absolute;
+    right:1.5733rem;
+    top:10.55rem;
+    width:0rem;
+    border-top:5px dotted #50E3C2;
+}
+
+.third .third_line_twelve{
+    position: absolute;
+    left:4.5rem;
+    top:10.56rem;
+    height:0rem;
+    border-left:5px dotted #50E3C2;
+}
+/*第三页文本内容*/
+.third .third_text{
+    position: absolute;
+    bottom:3rem;
+    /*left:4.76rem;*/
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height:1.2rem;
+    /*line-height: 1rem;*/
+    width:5.9rem;
+    background-color: #F3FBFF;
+    border: 2px solid #737897;
+    border-radius: 6px;
+    opacity: 0;
+    z-index: 99;
+
+}
+.third .third_text p{
+    font-size: 0.3rem;
+    text-align: center;
+
+
+}
+.third .third_text p:nth-child(1){
+    text-align: center;
+    margin-top: 0.24rem;
+
+}
+.third .third_text p:nth-child(2){
+   text-align: center;
+   /*margin-top: 0.1rem;*/
+}
+
+
+.third .third_line_thirteen{
+    position: absolute;
+    left:4rem;
+    top:12.4rem;
+    height:3rem;
+    border-left:6px dotted #FFC94F;
+}
+
+/*第三页动画开始*/
+.third.current .third_phone{
+    transition:  all 0.4s linear 0.6s;
+    opacity: 1;
+}
+
+.third.current .third_face{
+    transition:  all 0.4s linear 0.6s;
+    opacity: 1;
+}
+
+
+.third.current .third_B{
+    transition:  all 0.3s linear 0.9s;
+    opacity: 1;
+}
+.third.current .third_b_face{
+    transition:  all 0.3s linear 1.0s;
+    opacity: 1;
+}
+/*.third.current .third_line_seven{*/
+    /*transition:  all 0.4s linear 1.2s;*/
+    /*height:4.4466rem;*/
+/*}*/
+/*.third.current .third_line_ten{*/
+    /*transition:  all 0.1s linear 1.5s;*/
+    /*height:0.7rem;*/
+/*}*/
+
+/*.third.current .third_line_eight{*/
+    /*transition:  all 0.4s linear 1.6s;*/
+    /*width:3.14666rem;*/
+/*}*/
+
+/*.third.current .third_line_eleven{*/
+    /*transition:  all 0.4s linear 1.6s;*/
+    /*width:2.4rem;*/
+/*}*/
+
+/*.third.current .third_line_twelve{*/
+     /*transition:  all 0.2s linear 2s;*/
+     /*height:0.9333rem;*/
+
+ /*}*/
+/*.third.current .third_line_nine{*/
+    /*transition:  all 0.2s linear 2s;*/
+    /*height:0.93333rem;*/
+/*}*/
+
+
+.third.current .third_text{
+    transition:  all 0.4s linear 1.9s;
+    opacity: 1;
+}
+
+/*.third.current .third_line_thirteen{*/
+    /*transition:  all 0.2s linear 2.6s;*/
+    /*height:4rem;*/
+
+/*}*/
+/*第四页开始*/
+.fourth{
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth .fourth_title{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:2.16rem;
+    background-color: #3E506A;
+    z-index:9;
+}
+
+
+.fourth .fourth_title p{
+    text-align: center;
+    color:#ffffff;
+    margin-top: 0.8rem;
+    font-size: 0.4rem;
+}
+
+.fourth_box{
+    position: relative;
+    height:15.70rem;
+    width:7.3066rem;
+    top:2.16rem;
+    margin: -1.4rem auto;
+    overflow: hidden;
+}
+
+.fourth .fourth_line_one{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top:0.2rem;
+    height:1.73333rem;
+    border-left:5px dotted #FFC94F;
+}
+
+.fourth  .fourth_clock{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top:2rem;
+    width: 1.04rem;
+    height: 1.04rem;
+    z-index:9;
+}
+
+.fourth .fourth_line_two{
+    position: absolute;
+    height: 0.72rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top:3.1rem;
+    border-left:5px dotted #FFC94F;
+}
+
+.fourth .fourth_computer{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top: 3.64rem;
+    /*width: 8.8266rem;*/
+    /*height: 5.56rem;*/
+    width: 7.56rem;
+    height:4.44rem
+}
+
+.fourth .fourth_phone{
+    position: absolute;
+    left:0rem;
+    top:5.9rem;
+    width:1.429rem;
+    height:2.4528rem;
+    opacity: 0;
+}
+.fourth .fourth_right{
+    position: absolute;
+    bottom: 7.1266rem;
+    left:1.1rem;
+    width:0.52rem;
+    height: 0.52rem;
+    opacity: 0;
+}
+
+.fourth .fourth_pie{
+    position: absolute;
+    left:2.7rem;
+    top:4.4rem;
+    width:1.94rem;
+    height:1.88rem;
+    opacity: 0;
+
+}
+.fourth .fourth_pie_s{
+    position: absolute;
+    width: 0.58rem;
+    height:0.256rem;
+    left:2.9rem;
+    top:5.05rem;
+    opacity: 0;
+}
+
+.fourth .fourth_pie_t{
+    position: absolute;
+    width: 0.625rem;
+    height:0.3rem;
+    left:3.7rem;
+    top:4.8rem;
+    opacity: 0;
+}
+
+.fourth .fourth_ok{
+    position: absolute;
+    width:1.2rem;
+    height:0.3333rem;
+    left:4.933rem;
+    top:6.7466rem;
+    opacity: 0;
+}
+.fourth .fourth_people{
+    position: absolute;
+    width:2.64rem;
+    height:2.64rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top:8.88rem;
+}
+
+.fourth .fourth_people_face{
+    position: absolute;
+    width: 2.38rem;
+    height:2.026rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top:9.1466rem;
+    opacity: 0;
+}
+/*第四页文本*/
+.fourth .fourth_text{
+    position: absolute;
+    bottom:2.5333rem;
+    /*left:4.76rem;*/
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height:1.3rem;
+    width:7rem;
+    background-color: #F3FBFF;
+    border: 2px solid #737897;
+    border-radius: 6px;
+    opacity: 0;
+}
+.fourth .fourth_text p{
+    font-size: 0.3rem;
+    text-align: center;
+
+}
+.fourth .fourth_text p:nth-child(1){
+    margin-top: 0.26rem;
+}
+.fourth .fourth_text p:nth-child(2){
+    margin-bottom: 0.32rem;
+}
+
+/*时钟*/
+.fourth .watch{
+    position: absolute;
+    height: 0.73rem;
+    line-height:0.73rem;
+    width:1.8rem;
+    text-align: center;
+    left:4.7rem;
+    top:2.1rem;
+    border: 2px  solid #606689;
+    border-radius: 0.1rem;
+    font-size: 20px;
+    font-weight: 700;
+    color:#606689;
+}
+.fourth .watch span{
+    font-size: 20px;
+    font-weight: 700;
+    color:#606689;
+}
+
+/*第四页的动画开始*/
+
+.fourth.current .fourth_people_face{
+    transition:  all 1s linear 1.5s;
+    opacity: 1;
+}
+
+.fourth.current .fourth_phone{
+    transition:  all 1s linear 1.5s;
+    opacity: 1;
+}
+.fourth.current .fourth_right{
+    transition:  all 1s linear 1.5s;
+    opacity: 1;
+}
+.fourth.current .fourth_pie{
+    transition:  all 1s linear 1.5s;
+    opacity: 1;
+}
+.fourth.current .fourth_pie_s{
+    transition:  all 1s linear 1.5s;
+    opacity: 1;
+}
+.fourth.current .fourth_pie_t{
+    transition:  all 1s linear 1.5s;
+    opacity: 1;
+}
+.fourth.current .fourth_text{
+    transition:  all 1s linear 1.5s;
+    opacity: 1;
+}
+
+.fourth_arrow{
+    position: absolute;
+    width: 2.3rem;
+    top:8.1rem;
+    left:3.8rem;
+}
+/*第六页开始*/
+
+.sixth{
+    position: relative;
+    overflow: hidden;
+}
+
+.sixth .sixth_form{
+    position: absolute;
+    /*left:4rem;*/
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top:1.0266rem;
+    width:6.8666rem;
+    height:8.7733rem;
+    background-color: #C3E7FF;
+    border: 0.18rem solid #98D3FF;
+    border-radius: 0.3rem;
+}
+
+.sixth .sixth_form h3{
+    text-align: center;
+    font-size:0.4rem;
+    margin-top: 0.41rem;
+    margin-bottom: 0.36rem;
+    color:#43789F;
+    font-weight: 600;
+}
+.sixth .sixth_form input{
+    margin-bottom:0.29333rem;
+    height:1.0933rem;
+    width:5.373rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0.2933rem;
+    color:#89A9C0;
+}
+.sixth .login{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.sixth .login  .submit{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 5.41333rem;
+    bottom: -1.55rem;
+    opacity: 1;
+}
+
+.sixth .login  .send{
+    position: absolute;
+    opacity: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 5.41333rem;
+    bottom: -1.55rem;
+}
+.sixth .login  .jingguo{
+    position: absolute;
+    opacity: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 6rem;
+    bottom: -1.8rem;
+}
+
+
+.sixth .login  .disable{
+    position: absolute;
+    opacity: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 5.41333rem;
+    bottom: -1.55rem;
+}
+.sixth .sixth_computer{
+    position: absolute;
+    bottom: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width:5.44rem;
+    height:4.0266rem;
+}
+
+
+
+/*第七页开始*/
+.seventh {
+    /*position: relative;*/
+    overflow: hidden;
+}
+
+
+
+.seventh .seventh_box{
+    position: relative;
+    height:10.08rem;
+    width:8.50666rem;
+    margin:0 auto;
+    top:0.16rem;
+}
+
+
+.seventh dl{
+    float: left;
+
+}
+.seventh a{
+    display: inline-block;
+    margin-top: 0.32rem;
+    color:#7D7D7D;
+    font-size:0.34rem;
+}
+.seventh .product{
+    position: absolute;
+    top:0rem;
+    left:0rem;
+}
+
+.seventh  .partner{
+    position: absolute;
+    top:0rem;
+    left:5.0666rem;
+}
+
+.seventh .developer{
+    position: absolute;
+    top:3.2rem;
+    left:0rem;
+}
+.seventh  dt>a {
+    font-weight: 700;
+}
+.seventh .seventh_line{
+    position: absolute;
+    width: 8.45333rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-top:1px solid #D8D8D8;
+    top:5.92rem;
+}
+.seventh .center{
+    position: absolute;
+    left:0rem;
+    bottom: 0.3rem;
+}
+
+.seventh .seventh_footer{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 4.36rem;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+
+.seventh .seventh_logo{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0.5333rem;
+    width:1.02rem;
+    height:1rem;
+}
+
+.seventh .seventh_var{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.56rem;
+    width:5.8rem;
+    height:1.76rem;
+}
+/*SDK弹框*/
+.seventh .picture{
+    position: absolute;
+    width: 3.4rem;
+    height: 1.09rem;
+    left:2.5rem;
+    top:4.88rem;
+    background-color: #EFF9FF;
+    border-radius: 0.106rem;
+    display: none;
+}
+/*三角*/
+.seventh  .triangle{
+    position: absolute;
+    width: 0.3rem;
+    height:0.3rem;
+    transform: rotateZ(-45deg);
+    background-color: #EFF9FF;
+    left: -0.15rem;
+    top:0.4rem;
+}
+/*苹果图标*/
+.seventh  .apple{
+    position: absolute;
+    height: 0.36rem;
+    width: 0.36rem;
+    left:0.26rem;
+    top:0.14rem;
+
+}
+
+/*苹果文字*/
+.seventh .iossdk{
+    position: absolute;
+    height:0.3rem;
+    width:2rem;
+    left: 0.78rem;
+    top: 0.11rem;
+
+}
+.seventh .iossdk a{
+    color:#43769C;
+    font-size: 0.16rem;
+    margin-top: 0rem;
+}
+
+
+
+
+
+
+.seventh .android{
+    position: absolute;
+    height: 0.36rem;
+    width: 0.36rem;
+    left:0.26rem;
+    top:0.6rem;
+}
+
+
+/*安卓文字*/
+.seventh .androidsdk{
+    position: absolute;
+    height: 0.3rem;
+    width: 3rem;
+    left:0.78rem;
+    top:0.56rem;
+}
+
+.seventh .androidsdk a{
+    color:#43769C;
+    font-size: 0.16rem;
+    margin-top:0;
+}
+
+
+.seventh_footer  p:nth-child(2){
+    position: absolute;
+    top:1.7rem;
+    left:3rem;
+    text-align: center;
+    font-size: 12px;
+    color:#7D7D7D;
+}
+.seventh_footer  p:nth-child(3){
+    position: absolute;
+    top:2.3rem;
+    left:3.5rem;
+    font-size: 12px;
+    color:#7D7D7D;
+}
+.seventh_footer  p:nth-child(4){
+    position: absolute;
+    top:2.9rem;
+    left:2.7rem;
+    width:6.6rem;
+    font-size: 12px;
+    color:#7D7D7D;
+}
+
+.seventh_footer  img:nth-child(5){
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left:2.6rem;
+    top:1.75rem;
+
+}
+.seventh_footer  img:nth-child(6){
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 2.4rem;
+    top: 2.95rem;
+}
+
+
